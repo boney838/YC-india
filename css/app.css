@@ -7640,55 +7640,55 @@ button.close {
     display: none !important;
   }
 }
-/* line 29, ../scss/app.scss */
+/* line 28, ../scss/app.scss */
 .label-yc {
   background-color: #fff;
   border: 2px solid #5cb85c;
   color: #5cb85c;
   padding: .25em .6em .3em;
 }
-/* line 24, ../scss/app.scss */
+/* line 23, ../scss/app.scss */
 .label-yc[href]:hover, .label-yc[href]:focus {
   background-color: #449d44;
 }
 
-/* line 32, ../scss/app.scss */
+/* line 31, ../scss/app.scss */
 .label-breakfast {
   background-color: #fff;
   border: 2px solid #5bc0de;
   color: #5bc0de;
   padding: .25em .6em .3em;
 }
-/* line 24, ../scss/app.scss */
+/* line 23, ../scss/app.scss */
 .label-breakfast[href]:hover, .label-breakfast[href]:focus {
   background-color: #31b0d5;
 }
 
-/* line 35, ../scss/app.scss */
+/* line 34, ../scss/app.scss */
 .label-lunch {
   background-color: #fff;
   border: 2px solid #5cb85c;
   color: #5cb85c;
   padding: .25em .6em .3em;
 }
-/* line 24, ../scss/app.scss */
+/* line 23, ../scss/app.scss */
 .label-lunch[href]:hover, .label-lunch[href]:focus {
   background-color: #449d44;
 }
 
-/* line 38, ../scss/app.scss */
+/* line 37, ../scss/app.scss */
 .label-dinner {
   background-color: #fff;
   border: 2px solid #f0ad4e;
   color: #f0ad4e;
   padding: .25em .6em .3em;
 }
-/* line 24, ../scss/app.scss */
+/* line 23, ../scss/app.scss */
 .label-dinner[href]:hover, .label-dinner[href]:focus {
   background-color: #ec971f;
 }
 
-/* line 41, ../scss/app.scss */
+/* line 40, ../scss/app.scss */
 .label-yc-gray {
   background-color: #fff;
   border: 2px solid #777777;
@@ -7696,17 +7696,17 @@ button.close {
   padding: .25em .6em .3em;
   border-width: 1px;
 }
-/* line 24, ../scss/app.scss */
+/* line 23, ../scss/app.scss */
 .label-yc-gray[href]:hover, .label-yc-gray[href]:focus {
   background-color: #5e5e5e;
 }
 
-/* line 58, ../scss/app.scss */
+/* line 57, ../scss/app.scss */
 .page-wrapper {
   min-height: 100%;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 62, ../scss/app.scss */
 .content-wrapper {
   margin-left: -15px;
   margin-right: -15px;
@@ -7721,7 +7721,7 @@ button.close {
   clear: both;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 65, ../scss/app.scss */
 .default-panel {
   position: relative;
   float: left;
@@ -7731,7 +7731,7 @@ button.close {
   padding-right: 15px;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 68, ../scss/app.scss */
 .gray-panel, .white-panel {
   position: relative;
   float: left;
@@ -7744,12 +7744,12 @@ button.close {
   border-bottom: 1px solid #bbbbbb;
 }
 
-/* line 75, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 .white-panel {
   background-color: #fff;
 }
 
-/* line 88, ../scss/app.scss */
+/* line 87, ../scss/app.scss */
 .btn-fullwidth-mid {
   padding: 8px 12px;
   font-size: 16px;
@@ -7757,7 +7757,7 @@ button.close {
   border-radius: 3px;
 }
 
-/* line 92, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 .btn-fullwidth, .btn-fixed-bottom {
   padding: 10px 16px;
   font-size: 20px;
@@ -7765,12 +7765,12 @@ button.close {
   border-radius: 3px;
 }
 
-/* line 96, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 .btn-fixed-bottom {
   margin: 10px 0;
 }
 
-/* line 100, ../scss/app.scss */
+/* line 99, ../scss/app.scss */
 .btn-line-primary {
   color: #f39c12;
   background-color: white;
@@ -7815,7 +7815,7 @@ button.close {
   background-color: #f39c12;
 }
 
-/* line 104, ../scss/app.scss */
+/* line 103, ../scss/app.scss */
 .btn-fb {
   color: white;
   background-color: #3b5998;
@@ -7860,7 +7860,7 @@ button.close {
   background-color: white;
 }
 
-/* line 107, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 .btn-google {
   color: white;
   background-color: #dd4b39;
@@ -7905,7 +7905,7 @@ button.close {
   background-color: white;
 }
 
-/* line 111, ../scss/app.scss */
+/* line 110, ../scss/app.scss */
 header {
   margin-left: -15px;
   margin-right: -15px;
@@ -7923,7 +7923,7 @@ header:before, header:after {
 header:after {
   clear: both;
 }
-/* line 119, ../scss/app.scss */
+/* line 118, ../scss/app.scss */
 header a {
   text-align: left;
   text-decoration: none;
@@ -7935,17 +7935,17 @@ header a {
   color: #fff;
   margin: 0 10px;
 }
-/* line 132, ../scss/app.scss */
+/* line 131, ../scss/app.scss */
 header a span {
   position: relative;
   top: 2px;
   margin-right: 0;
 }
-/* line 138, ../scss/app.scss */
+/* line 137, ../scss/app.scss */
 header a:hover, header a:active, header a:visited {
   text-decoration: none;
 }
-/* line 142, ../scss/app.scss */
+/* line 141, ../scss/app.scss */
 header .header-center {
   display: block;
   font-size: 16px;
@@ -7961,7 +7961,7 @@ header .header-center {
   color: #fff;
   font-weight: bold;
 }
-/* line 158, ../scss/app.scss */
+/* line 157, ../scss/app.scss */
 header .header-right {
   float: right;
   position: absolute !important;
@@ -7970,60 +7970,60 @@ header .header-right {
   left: auto;
   top: 8px;
 }
-/* line 165, ../scss/app.scss */
+/* line 164, ../scss/app.scss */
 header .header-right span {
   margin-right: 0;
   font-size: 150%;
 }
 
-/* line 172, ../scss/app.scss */
+/* line 171, ../scss/app.scss */
 .bg-color {
   background-color: #fff;
 }
 
-/* line 176, ../scss/app.scss */
+/* line 175, ../scss/app.scss */
 .nav-justified.custom-not-stacked > li {
   display: table-cell;
   width: 1%;
 }
 
-/* line 191, ../scss/app.scss */
+/* line 190, ../scss/app.scss */
 .nav-pills-two > li, .nav-pills-three > li {
   float: left;
   min-width: 50%;
 }
-/* line 195, ../scss/app.scss */
+/* line 194, ../scss/app.scss */
 .nav-pills-two > li > a, .nav-pills-three > li > a {
   color: #5cb85c;
   border-radius: 0;
   border: 1px solid #5cb85c;
   margin-left: -1px;
 }
-/* line 201, ../scss/app.scss */
+/* line 200, ../scss/app.scss */
 .nav-pills-two > li + li, .nav-pills-three > li + li {
   margin-left: 0px;
 }
-/* line 206, ../scss/app.scss */
+/* line 205, ../scss/app.scss */
 .nav-pills-two > li:first-child > a, .nav-pills-three > li:first-child > a {
   border-radius: 4px 0 0 4px;
   margin: 0;
 }
-/* line 212, ../scss/app.scss */
+/* line 211, ../scss/app.scss */
 .nav-pills-two > li:last-child > a, .nav-pills-three > li:last-child > a {
   border-radius: 0 4px 4px 0;
 }
-/* line 220, ../scss/app.scss */
+/* line 219, ../scss/app.scss */
 .nav-pills-two > li.active > a, .nav-pills-three > li.active > a, .nav-pills-two > li.active > a:hover, .nav-pills-three > li.active > a:hover, .nav-pills-two > li.active > a:focus, .nav-pills-three > li.active > a:focus {
   color: white;
   background-color: #5cb85c;
 }
 
-/* line 229, ../scss/app.scss */
+/* line 228, ../scss/app.scss */
 .nav-pills-three > li {
   min-width: 32%;
 }
 
-/* line 235, ../scss/app.scss */
+/* line 234, ../scss/app.scss */
 #homepage-bg {
   background: linear-gradient(rgba(1, 0, 0, 0.45), rgba(1, 0, 0, 0.45)), url(../assets/images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -8032,7 +8032,7 @@ header .header-right span {
   background-size: cover;
 }
 
-/* line 252, ../scss/app.scss */
+/* line 251, ../scss/app.scss */
 .homepage-wrapper {
   margin-left: -15px;
   margin-right: -15px;
@@ -8047,7 +8047,7 @@ header .header-right span {
 .homepage-wrapper:after {
   clear: both;
 }
-/* line 264, ../scss/app.scss */
+/* line 263, ../scss/app.scss */
 .homepage-wrapper .homepage-center {
   position: relative;
   float: left;
@@ -8057,18 +8057,18 @@ header .header-right span {
   padding-right: 15px;
   color: #fff;
 }
-/* line 268, ../scss/app.scss */
+/* line 267, ../scss/app.scss */
 .homepage-wrapper .homepage-center h3 {
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 30px;
 }
-/* line 274, ../scss/app.scss */
+/* line 273, ../scss/app.scss */
 .homepage-wrapper .homepage-center h4 {
   font-weight: bold;
 }
 
-/* line 284, ../scss/app.scss */
+/* line 283, ../scss/app.scss */
 .search-tab {
   position: relative;
   float: left;
@@ -8079,11 +8079,11 @@ header .header-right span {
   margin: 15px 0;
 }
 
-/* line 290, ../scss/app.scss */
+/* line 289, ../scss/app.scss */
 .search-wrapper {
   padding-top: 1em;
 }
-/* line 294, ../scss/app.scss */
+/* line 293, ../scss/app.scss */
 .search-wrapper .journey-form {
   position: relative;
   float: left;
@@ -8093,13 +8093,13 @@ header .header-right span {
   padding-right: 15px;
   margin: 15px 0;
 }
-/* line 297, ../scss/app.scss */
+/* line 296, ../scss/app.scss */
 .search-wrapper .journey-form span {
   font-size: .75em;
   font-color: #777777;
   text-transform: uppercase;
 }
-/* line 304, ../scss/app.scss */
+/* line 303, ../scss/app.scss */
 .search-wrapper .journey-form .auto-suggest {
   background: #fff;
   border: 1px solid #d4cad4;
@@ -8107,18 +8107,18 @@ header .header-right span {
   margin-bottom: 15px;
   border-radius: 2px;
 }
-/* line 311, ../scss/app.scss */
+/* line 310, ../scss/app.scss */
 .search-wrapper .journey-form .auto-suggest h3 {
   display: block;
   margin: 0;
 }
-/* line 317, ../scss/app.scss */
+/* line 316, ../scss/app.scss */
 .search-wrapper .journey-form .auto-suggest p {
   display: block;
   margin: 0;
   font-size: .8em;
 }
-/* line 323, ../scss/app.scss */
+/* line 322, ../scss/app.scss */
 .search-wrapper .journey-form .journey-train, .search-wrapper .journey-form .journey-from {
   position: relative;
   float: left;
@@ -8129,7 +8129,7 @@ header .header-right span {
   padding-left: 0;
   padding-right: 5px;
 }
-/* line 329, ../scss/app.scss */
+/* line 328, ../scss/app.scss */
 .search-wrapper .journey-form .journey-date, .search-wrapper .journey-form .journey-to {
   position: relative;
   float: left;
@@ -8140,7 +8140,7 @@ header .header-right span {
   padding-right: 0;
   padding-left: 5px;
 }
-/* line 343, ../scss/app.scss */
+/* line 342, ../scss/app.scss */
 .search-wrapper .pnr-form {
   position: relative;
   float: left;
@@ -8150,16 +8150,16 @@ header .header-right span {
   padding-right: 15px;
   margin-top: 30%;
 }
-/* line 346, ../scss/app.scss */
+/* line 345, ../scss/app.scss */
 .search-wrapper .pnr-form p {
   text-align: center;
 }
-/* line 349, ../scss/app.scss */
+/* line 348, ../scss/app.scss */
 .search-wrapper .pnr-form input {
   width: 100%;
 }
 
-/* line 357, ../scss/app.scss */
+/* line 356, ../scss/app.scss */
 .find-food-btn-wrapper {
   position: relative;
   float: left;
@@ -8169,7 +8169,7 @@ header .header-right span {
   padding-right: 15px;
 }
 
-/* line 366, ../scss/app.scss */
+/* line 365, ../scss/app.scss */
 .train-info {
   position: relative;
   float: left;
@@ -8182,46 +8182,46 @@ header .header-right span {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 373, ../scss/app.scss */
+/* line 372, ../scss/app.scss */
 .train-info p {
   margin: 0;
   font-weight: bold;
 }
-/* line 378, ../scss/app.scss */
+/* line 377, ../scss/app.scss */
 .train-info p:nth-child(2) {
   font-size: .8em;
   margin-bottom: 10px;
   border-bottom: 1px solid #d5d5d5;
   padding-bottom: 10px;
 }
-/* line 385, ../scss/app.scss */
+/* line 384, ../scss/app.scss */
 .train-info ul {
   padding: 0;
 }
-/* line 387, ../scss/app.scss */
+/* line 386, ../scss/app.scss */
 .train-info ul li {
   list-style: none;
   display: block;
   width: 40%;
   float: left;
 }
-/* line 393, ../scss/app.scss */
+/* line 392, ../scss/app.scss */
 .train-info ul li span.dept-stn, .train-info ul li span.arr-stn {
   display: block;
 }
-/* line 397, ../scss/app.scss */
+/* line 396, ../scss/app.scss */
 .train-info ul li span.dept-time, .train-info ul li span.dept-date, .train-info ul li span.arr-time, .train-info ul li span.arr-date {
   display: inline;
   font-size: .8em;
 }
-/* line 403, ../scss/app.scss */
+/* line 402, ../scss/app.scss */
 .train-info ul li:nth-child(2) {
   text-align: center;
   width: 20%;
   padding-top: 15px;
 }
 
-/* line 415, ../scss/app.scss */
+/* line 414, ../scss/app.scss */
 .station-wrapper {
   position: relative;
   float: left;
@@ -8235,38 +8235,38 @@ header .header-right span {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 423, ../scss/app.scss */
+/* line 422, ../scss/app.scss */
 .station {
   width: 90%;
   display: inline-block;
 }
-/* line 429, ../scss/app.scss */
+/* line 428, ../scss/app.scss */
 .station .stn-name {
   width: 60%;
   display: inline-block;
   float: left;
 }
-/* line 433, ../scss/app.scss */
+/* line 432, ../scss/app.scss */
 .station .stn-name h5 {
   margin: 0;
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 441, ../scss/app.scss */
+/* line 440, ../scss/app.scss */
 .station .stn-arrival {
   max-width: 30%;
   display: inline-block;
   text-align: center;
 }
-/* line 445, ../scss/app.scss */
+/* line 444, ../scss/app.scss */
 .station .stn-arrival span {
   display: block;
 }
-/* line 446, ../scss/app.scss */
+/* line 445, ../scss/app.scss */
 .station .stn-arrival span:first-child {
   font-weight: bold;
 }
-/* line 451, ../scss/app.scss */
+/* line 450, ../scss/app.scss */
 .station .stn-day {
   width: 10%;
   display: inline-block;
@@ -8274,13 +8274,13 @@ header .header-right span {
   text-align: right;
 }
 
-/* line 459, ../scss/app.scss */
+/* line 458, ../scss/app.scss */
 .stn-arrow {
   float: right;
   position: relative;
   min-height: 1px;
 }
-/* line 463, ../scss/app.scss */
+/* line 462, ../scss/app.scss */
 .stn-arrow span {
   color: #bbbbbb;
   position: absolute;
@@ -8288,7 +8288,7 @@ header .header-right span {
   right: -10px;
 }
 
-/* line 472, ../scss/app.scss */
+/* line 471, ../scss/app.scss */
 .station-header {
   position: relative;
   float: left;
@@ -8298,17 +8298,17 @@ header .header-right span {
   padding-right: 15px;
   border-bottom: 1px solid #bbbbbb;
 }
-/* line 475, ../scss/app.scss */
+/* line 474, ../scss/app.scss */
 .station-header .station {
   padding: 8px 0;
 }
-/* line 479, ../scss/app.scss */
+/* line 478, ../scss/app.scss */
 .station-header .station .stn-name, .station-header .station .stn-arrival, .station-header .station .stn-day {
   font-size: 1em;
   font-weight: normal;
 }
 
-/* line 489, ../scss/app.scss */
+/* line 488, ../scss/app.scss */
 .hotel-wrapper {
   position: relative;
   float: left;
@@ -8317,7 +8317,7 @@ header .header-right span {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 491, ../scss/app.scss */
+/* line 490, ../scss/app.scss */
 .hotel-wrapper h5 {
   text-align: center;
   text-transform: uppercase;
@@ -8325,7 +8325,7 @@ header .header-right span {
   margin: 15px 0;
 }
 
-/* line 498, ../scss/app.scss */
+/* line 497, ../scss/app.scss */
 .hotelinfo-card, .hotelinfo-card-menu, .order-card, .summary-card {
   position: relative;
   float: left;
@@ -8339,11 +8339,11 @@ header .header-right span {
   margin-bottom: 15px;
   background-color: #fff;
 }
-/* line 506, ../scss/app.scss */
+/* line 505, ../scss/app.scss */
 .hotelinfo-card > button, .hotelinfo-card-menu > button, .order-card > button, .summary-card > button {
   margin-top: 20px;
 }
-/* line 509, ../scss/app.scss */
+/* line 508, ../scss/app.scss */
 .hotelinfo-card .card-header, .hotelinfo-card-menu .card-header, .order-card .card-header, .summary-card .card-header {
   margin-left: -15px;
   margin-right: -15px;
@@ -8358,7 +8358,7 @@ header .header-right span {
 .hotelinfo-card .card-header:after, .hotelinfo-card-menu .card-header:after, .order-card .card-header:after, .summary-card .card-header:after {
   clear: both;
 }
-/* line 512, ../scss/app.scss */
+/* line 511, ../scss/app.scss */
 .hotelinfo-card .card-header .hotel-name, .hotelinfo-card-menu .card-header .hotel-name, .order-card .card-header .hotel-name, .summary-card .card-header .hotel-name {
   position: relative;
   float: left;
@@ -8368,7 +8368,7 @@ header .header-right span {
   padding-right: 15px;
   padding-top: 3px;
 }
-/* line 515, ../scss/app.scss */
+/* line 514, ../scss/app.scss */
 .hotelinfo-card .card-header .hotel-name h4, .hotelinfo-card-menu .card-header .hotel-name h4, .order-card .card-header .hotel-name h4, .summary-card .card-header .hotel-name h4 {
   margin: 0;
   text-align: left;
@@ -8379,17 +8379,17 @@ header .header-right span {
   overflow: hidden;
   padding-right: 7px;
 }
-/* line 527, ../scss/app.scss */
+/* line 526, ../scss/app.scss */
 .hotelinfo-card .card-header .hotel-name span.veg, .hotelinfo-card-menu .card-header .hotel-name span.veg, .order-card .card-header .hotel-name span.veg, .summary-card .card-header .hotel-name span.veg {
   color: #5cb85c;
   margin-top: 5px;
 }
-/* line 531, ../scss/app.scss */
+/* line 530, ../scss/app.scss */
 .hotelinfo-card .card-header .hotel-name span.n-veg, .hotelinfo-card-menu .card-header .hotel-name span.n-veg, .order-card .card-header .hotel-name span.n-veg, .summary-card .card-header .hotel-name span.n-veg {
   color: red;
   margin-top: 5px;
 }
-/* line 543, ../scss/app.scss */
+/* line 542, ../scss/app.scss */
 .hotelinfo-card .hotel-details, .hotelinfo-card-menu .hotel-details, .order-card .hotel-details, .summary-card .hotel-details, .hotelinfo-card-menu .order-card .order-details, .order-card .hotelinfo-card-menu .order-details, .order-card .order-details, .summary-card .order-card .order-details, .order-card .summary-card .order-details {
   position: relative;
   float: left;
@@ -8399,35 +8399,35 @@ header .header-right span {
   padding-right: 15px;
   margin: 0 0 7px 0;
 }
-/* line 546, ../scss/app.scss */
+/* line 545, ../scss/app.scss */
 .hotelinfo-card .hotel-details .min-order, .hotelinfo-card-menu .hotel-details .min-order, .order-card .hotel-details .min-order, .summary-card .hotel-details .min-order, .hotelinfo-card .order-card .order-details .min-order, .order-card .hotelinfo-card .order-details .min-order, .hotelinfo-card-menu .order-card .order-details .min-order, .order-card .hotelinfo-card-menu .order-details .min-order, .order-card .order-details .min-order, .summary-card .order-card .order-details .min-order, .order-card .summary-card .order-details .min-order, .hotelinfo-card .hotel-details .min-time, .hotelinfo-card-menu .hotelinfo-card .hotel-details .min-time, .hotelinfo-card .hotelinfo-card-menu .hotel-details .min-time, .order-card .hotelinfo-card .hotel-details .min-time, .hotelinfo-card .order-card .hotel-details .min-time, .summary-card .hotelinfo-card .hotel-details .min-time, .hotelinfo-card .summary-card .hotel-details .min-time, .hotelinfo-card .order-card .order-details .hotel-details .min-time, .hotelinfo-card .hotel-details .order-card .order-details .min-time, .order-card .hotelinfo-card .order-details .hotel-details .min-time, .order-card .hotelinfo-card .hotel-details .order-details .min-time, .hotelinfo-card-menu .order-card .order-details .hotelinfo-card .hotel-details .min-time, .hotelinfo-card .hotel-details .hotelinfo-card-menu .order-card .order-details .min-time, .order-card .hotelinfo-card-menu .order-details .hotelinfo-card .hotel-details .min-time, .hotelinfo-card .hotel-details .order-card .hotelinfo-card-menu .order-details .min-time, .order-card .order-details .hotelinfo-card .hotel-details .min-time, .hotelinfo-card .hotel-details .order-card .order-details .min-time, .summary-card .order-card .order-details .hotelinfo-card .hotel-details .min-time, .hotelinfo-card .hotel-details .summary-card .order-card .order-details .min-time, .order-card .summary-card .order-details .hotelinfo-card .hotel-details .min-time, .hotelinfo-card .hotel-details .order-card .summary-card .order-details .min-time, .hotelinfo-card .hotelinfo-card-menu .hotel-details .min-time, .hotelinfo-card-menu .hotelinfo-card .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .min-time, .order-card .hotelinfo-card-menu .hotel-details .min-time, .hotelinfo-card-menu .order-card .hotel-details .min-time, .summary-card .hotelinfo-card-menu .hotel-details .min-time, .hotelinfo-card-menu .summary-card .hotel-details .min-time, .hotelinfo-card .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .hotelinfo-card .order-card .order-details .min-time, .order-card .hotelinfo-card .order-details .hotelinfo-card-menu .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .order-card .hotelinfo-card .order-details .min-time, .hotelinfo-card-menu .order-card .order-details .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .order-card .order-details .min-time, .order-card .hotelinfo-card-menu .order-details .hotel-details .min-time, .order-card .hotelinfo-card-menu .hotel-details .order-details .min-time, .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .order-card .order-details .min-time, .summary-card .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .summary-card .order-card .order-details .min-time, .order-card .summary-card .order-details .hotelinfo-card-menu .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .order-card .summary-card .order-details .min-time, .hotelinfo-card .order-card .hotel-details .min-time, .order-card .hotelinfo-card .hotel-details .min-time, .hotelinfo-card-menu .order-card .hotel-details .min-time, .order-card .hotelinfo-card-menu .hotel-details .min-time, .order-card .hotel-details .min-time, .summary-card .order-card .hotel-details .min-time, .order-card .summary-card .hotel-details .min-time, .hotelinfo-card .order-card .order-details .hotel-details .min-time, .hotelinfo-card .order-card .hotel-details .order-details .min-time, .order-card .hotelinfo-card .order-details .hotel-details .min-time, .order-card .hotel-details .hotelinfo-card .order-details .min-time, .hotelinfo-card-menu .order-card .order-details .hotel-details .min-time, .hotelinfo-card-menu .order-card .hotel-details .order-details .min-time, .order-card .hotelinfo-card-menu .order-details .hotel-details .min-time, .order-card .hotel-details .hotelinfo-card-menu .order-details .min-time, .order-card .order-details .hotel-details .min-time, .order-card .hotel-details .order-details .min-time, .summary-card .order-card .order-details .hotel-details .min-time, .summary-card .order-card .hotel-details .order-details .min-time, .order-card .summary-card .order-details .hotel-details .min-time, .order-card .hotel-details .summary-card .order-details .min-time, .hotelinfo-card .summary-card .hotel-details .min-time, .summary-card .hotelinfo-card .hotel-details .min-time, .hotelinfo-card-menu .summary-card .hotel-details .min-time, .summary-card .hotelinfo-card-menu .hotel-details .min-time, .order-card .summary-card .hotel-details .min-time, .summary-card .order-card .hotel-details .min-time, .summary-card .hotel-details .min-time, .hotelinfo-card .order-card .order-details .summary-card .hotel-details .min-time, .summary-card .hotel-details .hotelinfo-card .order-card .order-details .min-time, .order-card .hotelinfo-card .order-details .summary-card .hotel-details .min-time, .summary-card .hotel-details .order-card .hotelinfo-card .order-details .min-time, .hotelinfo-card-menu .order-card .order-details .summary-card .hotel-details .min-time, .summary-card .hotel-details .hotelinfo-card-menu .order-card .order-details .min-time, .order-card .hotelinfo-card-menu .order-details .summary-card .hotel-details .min-time, .summary-card .hotel-details .order-card .hotelinfo-card-menu .order-details .min-time, .order-card .order-details .summary-card .hotel-details .min-time, .summary-card .hotel-details .order-card .order-details .min-time, .summary-card .order-card .order-details .hotel-details .min-time, .summary-card .hotel-details .order-card .order-details .min-time, .order-card .summary-card .order-details .hotel-details .min-time, .order-card .summary-card .hotel-details .order-details .min-time, .hotelinfo-card .hotel-details .order-card .order-details .min-time, .hotelinfo-card .order-card .order-details .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .hotelinfo-card .order-card .order-details .min-time, .hotelinfo-card .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time, .hotelinfo-card .order-card .hotel-details .order-details .min-time, .hotelinfo-card .order-card .order-details .hotel-details .min-time, .summary-card .hotel-details .hotelinfo-card .order-card .order-details .min-time, .hotelinfo-card .order-card .order-details .summary-card .hotel-details .min-time, .hotelinfo-card .order-card .order-details .min-time, .order-card .hotelinfo-card .order-card .order-details .min-time, .hotelinfo-card-menu .hotelinfo-card .order-card .order-details .min-time, .hotelinfo-card .hotelinfo-card-menu .order-card .order-details .min-time, .hotelinfo-card .order-card .hotelinfo-card-menu .order-details .min-time, .hotelinfo-card .order-card .order-details .min-time, .summary-card .hotelinfo-card .order-card .order-details .min-time, .hotelinfo-card .summary-card .order-card .order-details .min-time, .hotelinfo-card .order-card .summary-card .order-details .min-time, .order-card .hotelinfo-card .hotel-details .order-details .min-time, .order-card .hotelinfo-card .order-details .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .order-card .hotelinfo-card .order-details .min-time, .order-card .hotelinfo-card .order-details .hotelinfo-card-menu .hotel-details .min-time, .order-card .hotel-details .hotelinfo-card .order-details .min-time, .order-card .hotelinfo-card .order-details .hotel-details .min-time, .summary-card .hotel-details .order-card .hotelinfo-card .order-details .min-time, .order-card .hotelinfo-card .order-details .summary-card .hotel-details .min-time, .hotelinfo-card .order-card .hotelinfo-card .order-details .min-time, .order-card .hotelinfo-card .order-details .min-time, .hotelinfo-card-menu .order-card .hotelinfo-card .order-details .min-time, .order-card .hotelinfo-card-menu .hotelinfo-card .order-details .min-time, .order-card .hotelinfo-card .hotelinfo-card-menu .order-details .min-time, .order-card .hotelinfo-card .order-details .min-time, .summary-card .order-card .hotelinfo-card .order-details .min-time, .order-card .summary-card .hotelinfo-card .order-details .min-time, .order-card .hotelinfo-card .summary-card .order-details .min-time, .hotelinfo-card .hotel-details .hotelinfo-card-menu .order-card .order-details .min-time, .hotelinfo-card-menu .order-card .order-details .hotelinfo-card .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .order-card .order-details .min-time, .hotelinfo-card-menu .order-card .order-details .hotel-details .min-time, .hotelinfo-card-menu .order-card .hotel-details .order-details .min-time, .hotelinfo-card-menu .order-card .order-details .hotel-details .min-time, .summary-card .hotel-details .hotelinfo-card-menu .order-card .order-details .min-time, .hotelinfo-card-menu .order-card .order-details .summary-card .hotel-details .min-time, .hotelinfo-card .hotelinfo-card-menu .order-card .order-details .min-time, .hotelinfo-card-menu .hotelinfo-card .order-card .order-details .min-time, .hotelinfo-card-menu .order-card .hotelinfo-card .order-details .min-time, .hotelinfo-card-menu .order-card .order-details .min-time, .order-card .hotelinfo-card-menu .order-card .order-details .min-time, .hotelinfo-card-menu .order-card .order-details .min-time, .summary-card .hotelinfo-card-menu .order-card .order-details .min-time, .hotelinfo-card-menu .summary-card .order-card .order-details .min-time, .hotelinfo-card-menu .order-card .summary-card .order-details .min-time, .hotelinfo-card .hotel-details .order-card .hotelinfo-card-menu .order-details .min-time, .order-card .hotelinfo-card-menu .order-details .hotelinfo-card .hotel-details .min-time, .order-card .hotelinfo-card-menu .hotel-details .order-details .min-time, .order-card .hotelinfo-card-menu .order-details .hotel-details .min-time, .order-card .hotel-details .hotelinfo-card-menu .order-details .min-time, .order-card .hotelinfo-card-menu .order-details .hotel-details .min-time, .summary-card .hotel-details .order-card .hotelinfo-card-menu .order-details .min-time, .order-card .hotelinfo-card-menu .order-details .summary-card .hotel-details .min-time, .hotelinfo-card .order-card .hotelinfo-card-menu .order-details .min-time, .order-card .hotelinfo-card .hotelinfo-card-menu .order-details .min-time, .order-card .hotelinfo-card-menu .hotelinfo-card .order-details .min-time, .hotelinfo-card-menu .order-card .hotelinfo-card-menu .order-details .min-time, .order-card .hotelinfo-card-menu .order-details .min-time, .order-card .hotelinfo-card-menu .order-details .min-time, .summary-card .order-card .hotelinfo-card-menu .order-details .min-time, .order-card .summary-card .hotelinfo-card-menu .order-details .min-time, .order-card .hotelinfo-card-menu .summary-card .order-details .min-time, .hotelinfo-card .hotel-details .order-card .order-details .min-time, .order-card .order-details .hotelinfo-card .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .order-card .order-details .min-time, .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time, .order-card .hotel-details .order-details .min-time, .order-card .order-details .hotel-details .min-time, .summary-card .hotel-details .order-card .order-details .min-time, .order-card .order-details .summary-card .hotel-details .min-time, .hotelinfo-card .order-card .order-details .min-time, .order-card .hotelinfo-card .order-details .min-time, .hotelinfo-card-menu .order-card .order-details .min-time, .order-card .hotelinfo-card-menu .order-details .min-time, .order-card .order-details .min-time, .summary-card .order-card .order-details .min-time, .order-card .summary-card .order-details .min-time, .hotelinfo-card .hotel-details .summary-card .order-card .order-details .min-time, .summary-card .order-card .order-details .hotelinfo-card .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .summary-card .order-card .order-details .min-time, .summary-card .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time, .summary-card .order-card .hotel-details .order-details .min-time, .summary-card .order-card .order-details .hotel-details .min-time, .summary-card .hotel-details .order-card .order-details .min-time, .summary-card .order-card .order-details .hotel-details .min-time, .hotelinfo-card .summary-card .order-card .order-details .min-time, .summary-card .hotelinfo-card .order-card .order-details .min-time, .summary-card .order-card .hotelinfo-card .order-details .min-time, .hotelinfo-card-menu .summary-card .order-card .order-details .min-time, .summary-card .hotelinfo-card-menu .order-card .order-details .min-time, .summary-card .order-card .hotelinfo-card-menu .order-details .min-time, .summary-card .order-card .order-details .min-time, .summary-card .order-card .order-details .min-time, .order-card .summary-card .order-card .order-details .min-time, .hotelinfo-card .hotel-details .order-card .summary-card .order-details .min-time, .order-card .summary-card .order-details .hotelinfo-card .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .order-card .summary-card .order-details .min-time, .order-card .summary-card .order-details .hotelinfo-card-menu .hotel-details .min-time, .order-card .hotel-details .summary-card .order-details .min-time, .order-card .summary-card .order-details .hotel-details .min-time, .order-card .summary-card .hotel-details .order-details .min-time, .order-card .summary-card .order-details .hotel-details .min-time, .hotelinfo-card .order-card .summary-card .order-details .min-time, .order-card .hotelinfo-card .summary-card .order-details .min-time, .order-card .summary-card .hotelinfo-card .order-details .min-time, .hotelinfo-card-menu .order-card .summary-card .order-details .min-time, .order-card .hotelinfo-card-menu .summary-card .order-details .min-time, .order-card .summary-card .hotelinfo-card-menu .order-details .min-time, .order-card .summary-card .order-details .min-time, .summary-card .order-card .summary-card .order-details .min-time, .order-card .summary-card .order-details .min-time, .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card-menu .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card .hotelinfo-card-menu .hotel-details .delivery-charge, .order-card .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card .order-card .hotel-details .delivery-charge, .summary-card .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card .summary-card .hotel-details .delivery-charge, .hotelinfo-card .order-card .order-details .hotel-details .delivery-charge, .hotelinfo-card .hotel-details .order-card .order-details .delivery-charge, .order-card .hotelinfo-card .order-details .hotel-details .delivery-charge, .order-card .hotelinfo-card .hotel-details .order-details .delivery-charge, .hotelinfo-card-menu .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card .hotel-details .hotelinfo-card-menu .order-card .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-details .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card .hotel-details .order-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card .hotel-details .order-card .order-details .delivery-charge, .summary-card .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card .hotel-details .summary-card .order-card .order-details .delivery-charge, .order-card .summary-card .order-details .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card .hotel-details .order-card .summary-card .order-details .delivery-charge, .hotelinfo-card .hotelinfo-card-menu .hotel-details .delivery-charge, .hotelinfo-card-menu .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .delivery-charge, .order-card .hotelinfo-card-menu .hotel-details .delivery-charge, .hotelinfo-card-menu .order-card .hotel-details .delivery-charge, .summary-card .hotelinfo-card-menu .hotel-details .delivery-charge, .hotelinfo-card-menu .summary-card .hotel-details .delivery-charge, .hotelinfo-card .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .hotelinfo-card .order-card .order-details .delivery-charge, .order-card .hotelinfo-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .order-card .hotelinfo-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .order-details .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .order-card .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-details .hotel-details .delivery-charge, .order-card .hotelinfo-card-menu .hotel-details .order-details .delivery-charge, .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .order-card .order-details .delivery-charge, .summary-card .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .summary-card .order-card .order-details .delivery-charge, .order-card .summary-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .order-card .summary-card .order-details .delivery-charge, .hotelinfo-card .order-card .hotel-details .delivery-charge, .order-card .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card-menu .order-card .hotel-details .delivery-charge, .order-card .hotelinfo-card-menu .hotel-details .delivery-charge, .order-card .hotel-details .delivery-charge, .summary-card .order-card .hotel-details .delivery-charge, .order-card .summary-card .hotel-details .delivery-charge, .hotelinfo-card .order-card .order-details .hotel-details .delivery-charge, .hotelinfo-card .order-card .hotel-details .order-details .delivery-charge, .order-card .hotelinfo-card .order-details .hotel-details .delivery-charge, .order-card .hotel-details .hotelinfo-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .order-details .hotel-details .delivery-charge, .hotelinfo-card-menu .order-card .hotel-details .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-details .hotel-details .delivery-charge, .order-card .hotel-details .hotelinfo-card-menu .order-details .delivery-charge, .order-card .order-details .hotel-details .delivery-charge, .order-card .hotel-details .order-details .delivery-charge, .summary-card .order-card .order-details .hotel-details .delivery-charge, .summary-card .order-card .hotel-details .order-details .delivery-charge, .order-card .summary-card .order-details .hotel-details .delivery-charge, .order-card .hotel-details .summary-card .order-details .delivery-charge, .hotelinfo-card .summary-card .hotel-details .delivery-charge, .summary-card .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card-menu .summary-card .hotel-details .delivery-charge, .summary-card .hotelinfo-card-menu .hotel-details .delivery-charge, .order-card .summary-card .hotel-details .delivery-charge, .summary-card .order-card .hotel-details .delivery-charge, .summary-card .hotel-details .delivery-charge, .hotelinfo-card .order-card .order-details .summary-card .hotel-details .delivery-charge, .summary-card .hotel-details .hotelinfo-card .order-card .order-details .delivery-charge, .order-card .hotelinfo-card .order-details .summary-card .hotel-details .delivery-charge, .summary-card .hotel-details .order-card .hotelinfo-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .order-details .summary-card .hotel-details .delivery-charge, .summary-card .hotel-details .hotelinfo-card-menu .order-card .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-details .summary-card .hotel-details .delivery-charge, .summary-card .hotel-details .order-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .order-details .summary-card .hotel-details .delivery-charge, .summary-card .hotel-details .order-card .order-details .delivery-charge, .summary-card .order-card .order-details .hotel-details .delivery-charge, .summary-card .hotel-details .order-card .order-details .delivery-charge, .order-card .summary-card .order-details .hotel-details .delivery-charge, .order-card .summary-card .hotel-details .order-details .delivery-charge, .hotelinfo-card .hotel-details .order-card .order-details .delivery-charge, .hotelinfo-card .order-card .order-details .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .hotelinfo-card .order-card .order-details .delivery-charge, .hotelinfo-card .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge, .hotelinfo-card .order-card .hotel-details .order-details .delivery-charge, .hotelinfo-card .order-card .order-details .hotel-details .delivery-charge, .summary-card .hotel-details .hotelinfo-card .order-card .order-details .delivery-charge, .hotelinfo-card .order-card .order-details .summary-card .hotel-details .delivery-charge, .hotelinfo-card .order-card .order-details .delivery-charge, .order-card .hotelinfo-card .order-card .order-details .delivery-charge, .hotelinfo-card-menu .hotelinfo-card .order-card .order-details .delivery-charge, .hotelinfo-card .hotelinfo-card-menu .order-card .order-details .delivery-charge, .hotelinfo-card .order-card .hotelinfo-card-menu .order-details .delivery-charge, .hotelinfo-card .order-card .order-details .delivery-charge, .summary-card .hotelinfo-card .order-card .order-details .delivery-charge, .hotelinfo-card .summary-card .order-card .order-details .delivery-charge, .hotelinfo-card .order-card .summary-card .order-details .delivery-charge, .order-card .hotelinfo-card .hotel-details .order-details .delivery-charge, .order-card .hotelinfo-card .order-details .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .order-card .hotelinfo-card .order-details .delivery-charge, .order-card .hotelinfo-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge, .order-card .hotel-details .hotelinfo-card .order-details .delivery-charge, .order-card .hotelinfo-card .order-details .hotel-details .delivery-charge, .summary-card .hotel-details .order-card .hotelinfo-card .order-details .delivery-charge, .order-card .hotelinfo-card .order-details .summary-card .hotel-details .delivery-charge, .hotelinfo-card .order-card .hotelinfo-card .order-details .delivery-charge, .order-card .hotelinfo-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .hotelinfo-card .order-details .delivery-charge, .order-card .hotelinfo-card-menu .hotelinfo-card .order-details .delivery-charge, .order-card .hotelinfo-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .hotelinfo-card .order-details .delivery-charge, .summary-card .order-card .hotelinfo-card .order-details .delivery-charge, .order-card .summary-card .hotelinfo-card .order-details .delivery-charge, .order-card .hotelinfo-card .summary-card .order-details .delivery-charge, .hotelinfo-card .hotel-details .hotelinfo-card-menu .order-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .order-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .order-details .hotel-details .delivery-charge, .hotelinfo-card-menu .order-card .hotel-details .order-details .delivery-charge, .hotelinfo-card-menu .order-card .order-details .hotel-details .delivery-charge, .summary-card .hotel-details .hotelinfo-card-menu .order-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .order-details .summary-card .hotel-details .delivery-charge, .hotelinfo-card .hotelinfo-card-menu .order-card .order-details .delivery-charge, .hotelinfo-card-menu .hotelinfo-card .order-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .hotelinfo-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .order-details .delivery-charge, .summary-card .hotelinfo-card-menu .order-card .order-details .delivery-charge, .hotelinfo-card-menu .summary-card .order-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .summary-card .order-details .delivery-charge, .hotelinfo-card .hotel-details .order-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-details .hotelinfo-card .hotel-details .delivery-charge, .order-card .hotelinfo-card-menu .hotel-details .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-details .hotel-details .delivery-charge, .order-card .hotel-details .hotelinfo-card-menu .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-details .hotel-details .delivery-charge, .summary-card .hotel-details .order-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-details .summary-card .hotel-details .delivery-charge, .hotelinfo-card .order-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .hotelinfo-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .hotelinfo-card-menu .hotelinfo-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-details .delivery-charge, .summary-card .order-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .summary-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .hotelinfo-card-menu .summary-card .order-details .delivery-charge, .hotelinfo-card .hotel-details .order-card .order-details .delivery-charge, .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .order-card .order-details .delivery-charge, .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge, .order-card .hotel-details .order-details .delivery-charge, .order-card .order-details .hotel-details .delivery-charge, .summary-card .hotel-details .order-card .order-details .delivery-charge, .order-card .order-details .summary-card .hotel-details .delivery-charge, .hotelinfo-card .order-card .order-details .delivery-charge, .order-card .hotelinfo-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .order-details .delivery-charge, .summary-card .order-card .order-details .delivery-charge, .order-card .summary-card .order-details .delivery-charge, .hotelinfo-card .hotel-details .summary-card .order-card .order-details .delivery-charge, .summary-card .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .summary-card .order-card .order-details .delivery-charge, .summary-card .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge, .summary-card .order-card .hotel-details .order-details .delivery-charge, .summary-card .order-card .order-details .hotel-details .delivery-charge, .summary-card .hotel-details .order-card .order-details .delivery-charge, .summary-card .order-card .order-details .hotel-details .delivery-charge, .hotelinfo-card .summary-card .order-card .order-details .delivery-charge, .summary-card .hotelinfo-card .order-card .order-details .delivery-charge, .summary-card .order-card .hotelinfo-card .order-details .delivery-charge, .hotelinfo-card-menu .summary-card .order-card .order-details .delivery-charge, .summary-card .hotelinfo-card-menu .order-card .order-details .delivery-charge, .summary-card .order-card .hotelinfo-card-menu .order-details .delivery-charge, .summary-card .order-card .order-details .delivery-charge, .summary-card .order-card .order-details .delivery-charge, .order-card .summary-card .order-card .order-details .delivery-charge, .hotelinfo-card .hotel-details .order-card .summary-card .order-details .delivery-charge, .order-card .summary-card .order-details .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .order-card .summary-card .order-details .delivery-charge, .order-card .summary-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge, .order-card .hotel-details .summary-card .order-details .delivery-charge, .order-card .summary-card .order-details .hotel-details .delivery-charge, .order-card .summary-card .hotel-details .order-details .delivery-charge, .order-card .summary-card .order-details .hotel-details .delivery-charge, .hotelinfo-card .order-card .summary-card .order-details .delivery-charge, .order-card .hotelinfo-card .summary-card .order-details .delivery-charge, .order-card .summary-card .hotelinfo-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .summary-card .order-details .delivery-charge, .order-card .hotelinfo-card-menu .summary-card .order-details .delivery-charge, .order-card .summary-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .summary-card .order-details .delivery-charge, .summary-card .order-card .summary-card .order-details .delivery-charge, .order-card .summary-card .order-details .delivery-charge {
   width: 32%;
   display: inline-block;
 }
-/* line 550, ../scss/app.scss */
+/* line 549, ../scss/app.scss */
 .hotelinfo-card .hotel-details .min-order p, .hotelinfo-card-menu .hotel-details .min-order p, .order-card .hotel-details .min-order p, .summary-card .hotel-details .min-order p, .hotelinfo-card .order-card .order-details .min-order p, .order-card .hotelinfo-card .order-details .min-order p, .hotelinfo-card-menu .order-card .order-details .min-order p, .order-card .hotelinfo-card-menu .order-details .min-order p, .order-card .order-details .min-order p, .summary-card .order-card .order-details .min-order p, .order-card .summary-card .order-details .min-order p, .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card-menu .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card .hotelinfo-card-menu .hotel-details .min-time p, .order-card .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card .order-card .hotel-details .min-time p, .summary-card .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card .summary-card .hotel-details .min-time p, .hotelinfo-card .order-card .order-details .hotel-details .min-time p, .hotelinfo-card .hotel-details .order-card .order-details .min-time p, .order-card .hotelinfo-card .order-details .hotel-details .min-time p, .order-card .hotelinfo-card .hotel-details .order-details .min-time p, .hotelinfo-card-menu .order-card .order-details .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card .hotel-details .hotelinfo-card-menu .order-card .order-details .min-time p, .order-card .hotelinfo-card-menu .order-details .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card .hotel-details .order-card .hotelinfo-card-menu .order-details .min-time p, .order-card .order-details .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card .hotel-details .order-card .order-details .min-time p, .summary-card .order-card .order-details .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card .hotel-details .summary-card .order-card .order-details .min-time p, .order-card .summary-card .order-details .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card .hotel-details .order-card .summary-card .order-details .min-time p, .hotelinfo-card .hotelinfo-card-menu .hotel-details .min-time p, .hotelinfo-card-menu .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .min-time p, .order-card .hotelinfo-card-menu .hotel-details .min-time p, .hotelinfo-card-menu .order-card .hotel-details .min-time p, .summary-card .hotelinfo-card-menu .hotel-details .min-time p, .hotelinfo-card-menu .summary-card .hotel-details .min-time p, .hotelinfo-card .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .hotelinfo-card .order-card .order-details .min-time p, .order-card .hotelinfo-card .order-details .hotelinfo-card-menu .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .order-card .hotelinfo-card .order-details .min-time p, .hotelinfo-card-menu .order-card .order-details .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .order-card .order-details .min-time p, .order-card .hotelinfo-card-menu .order-details .hotel-details .min-time p, .order-card .hotelinfo-card-menu .hotel-details .order-details .min-time p, .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .order-card .order-details .min-time p, .summary-card .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .summary-card .order-card .order-details .min-time p, .order-card .summary-card .order-details .hotelinfo-card-menu .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .order-card .summary-card .order-details .min-time p, .hotelinfo-card .order-card .hotel-details .min-time p, .order-card .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card-menu .order-card .hotel-details .min-time p, .order-card .hotelinfo-card-menu .hotel-details .min-time p, .order-card .hotel-details .min-time p, .summary-card .order-card .hotel-details .min-time p, .order-card .summary-card .hotel-details .min-time p, .hotelinfo-card .order-card .order-details .hotel-details .min-time p, .hotelinfo-card .order-card .hotel-details .order-details .min-time p, .order-card .hotelinfo-card .order-details .hotel-details .min-time p, .order-card .hotel-details .hotelinfo-card .order-details .min-time p, .hotelinfo-card-menu .order-card .order-details .hotel-details .min-time p, .hotelinfo-card-menu .order-card .hotel-details .order-details .min-time p, .order-card .hotelinfo-card-menu .order-details .hotel-details .min-time p, .order-card .hotel-details .hotelinfo-card-menu .order-details .min-time p, .order-card .order-details .hotel-details .min-time p, .order-card .hotel-details .order-details .min-time p, .summary-card .order-card .order-details .hotel-details .min-time p, .summary-card .order-card .hotel-details .order-details .min-time p, .order-card .summary-card .order-details .hotel-details .min-time p, .order-card .hotel-details .summary-card .order-details .min-time p, .hotelinfo-card .summary-card .hotel-details .min-time p, .summary-card .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card-menu .summary-card .hotel-details .min-time p, .summary-card .hotelinfo-card-menu .hotel-details .min-time p, .order-card .summary-card .hotel-details .min-time p, .summary-card .order-card .hotel-details .min-time p, .summary-card .hotel-details .min-time p, .hotelinfo-card .order-card .order-details .summary-card .hotel-details .min-time p, .summary-card .hotel-details .hotelinfo-card .order-card .order-details .min-time p, .order-card .hotelinfo-card .order-details .summary-card .hotel-details .min-time p, .summary-card .hotel-details .order-card .hotelinfo-card .order-details .min-time p, .hotelinfo-card-menu .order-card .order-details .summary-card .hotel-details .min-time p, .summary-card .hotel-details .hotelinfo-card-menu .order-card .order-details .min-time p, .order-card .hotelinfo-card-menu .order-details .summary-card .hotel-details .min-time p, .summary-card .hotel-details .order-card .hotelinfo-card-menu .order-details .min-time p, .order-card .order-details .summary-card .hotel-details .min-time p, .summary-card .hotel-details .order-card .order-details .min-time p, .summary-card .order-card .order-details .hotel-details .min-time p, .summary-card .hotel-details .order-card .order-details .min-time p, .order-card .summary-card .order-details .hotel-details .min-time p, .order-card .summary-card .hotel-details .order-details .min-time p, .hotelinfo-card .hotel-details .order-card .order-details .min-time p, .hotelinfo-card .order-card .order-details .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .hotelinfo-card .order-card .order-details .min-time p, .hotelinfo-card .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time p, .hotelinfo-card .order-card .hotel-details .order-details .min-time p, .hotelinfo-card .order-card .order-details .hotel-details .min-time p, .summary-card .hotel-details .hotelinfo-card .order-card .order-details .min-time p, .hotelinfo-card .order-card .order-details .summary-card .hotel-details .min-time p, .hotelinfo-card .order-card .order-details .min-time p, .order-card .hotelinfo-card .order-card .order-details .min-time p, .hotelinfo-card-menu .hotelinfo-card .order-card .order-details .min-time p, .hotelinfo-card .hotelinfo-card-menu .order-card .order-details .min-time p, .hotelinfo-card .order-card .hotelinfo-card-menu .order-details .min-time p, .hotelinfo-card .order-card .order-details .min-time p, .summary-card .hotelinfo-card .order-card .order-details .min-time p, .hotelinfo-card .summary-card .order-card .order-details .min-time p, .hotelinfo-card .order-card .summary-card .order-details .min-time p, .order-card .hotelinfo-card .hotel-details .order-details .min-time p, .order-card .hotelinfo-card .order-details .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .order-card .hotelinfo-card .order-details .min-time p, .order-card .hotelinfo-card .order-details .hotelinfo-card-menu .hotel-details .min-time p, .order-card .hotel-details .hotelinfo-card .order-details .min-time p, .order-card .hotelinfo-card .order-details .hotel-details .min-time p, .summary-card .hotel-details .order-card .hotelinfo-card .order-details .min-time p, .order-card .hotelinfo-card .order-details .summary-card .hotel-details .min-time p, .hotelinfo-card .order-card .hotelinfo-card .order-details .min-time p, .order-card .hotelinfo-card .order-details .min-time p, .hotelinfo-card-menu .order-card .hotelinfo-card .order-details .min-time p, .order-card .hotelinfo-card-menu .hotelinfo-card .order-details .min-time p, .order-card .hotelinfo-card .hotelinfo-card-menu .order-details .min-time p, .order-card .hotelinfo-card .order-details .min-time p, .summary-card .order-card .hotelinfo-card .order-details .min-time p, .order-card .summary-card .hotelinfo-card .order-details .min-time p, .order-card .hotelinfo-card .summary-card .order-details .min-time p, .hotelinfo-card .hotel-details .hotelinfo-card-menu .order-card .order-details .min-time p, .hotelinfo-card-menu .order-card .order-details .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .order-card .order-details .min-time p, .hotelinfo-card-menu .order-card .order-details .hotel-details .min-time p, .hotelinfo-card-menu .order-card .hotel-details .order-details .min-time p, .hotelinfo-card-menu .order-card .order-details .hotel-details .min-time p, .summary-card .hotel-details .hotelinfo-card-menu .order-card .order-details .min-time p, .hotelinfo-card-menu .order-card .order-details .summary-card .hotel-details .min-time p, .hotelinfo-card .hotelinfo-card-menu .order-card .order-details .min-time p, .hotelinfo-card-menu .hotelinfo-card .order-card .order-details .min-time p, .hotelinfo-card-menu .order-card .hotelinfo-card .order-details .min-time p, .hotelinfo-card-menu .order-card .order-details .min-time p, .order-card .hotelinfo-card-menu .order-card .order-details .min-time p, .hotelinfo-card-menu .order-card .order-details .min-time p, .summary-card .hotelinfo-card-menu .order-card .order-details .min-time p, .hotelinfo-card-menu .summary-card .order-card .order-details .min-time p, .hotelinfo-card-menu .order-card .summary-card .order-details .min-time p, .hotelinfo-card .hotel-details .order-card .hotelinfo-card-menu .order-details .min-time p, .order-card .hotelinfo-card-menu .order-details .hotelinfo-card .hotel-details .min-time p, .order-card .hotelinfo-card-menu .hotel-details .order-details .min-time p, .order-card .hotelinfo-card-menu .order-details .hotel-details .min-time p, .order-card .hotel-details .hotelinfo-card-menu .order-details .min-time p, .order-card .hotelinfo-card-menu .order-details .hotel-details .min-time p, .summary-card .hotel-details .order-card .hotelinfo-card-menu .order-details .min-time p, .order-card .hotelinfo-card-menu .order-details .summary-card .hotel-details .min-time p, .hotelinfo-card .order-card .hotelinfo-card-menu .order-details .min-time p, .order-card .hotelinfo-card .hotelinfo-card-menu .order-details .min-time p, .order-card .hotelinfo-card-menu .hotelinfo-card .order-details .min-time p, .hotelinfo-card-menu .order-card .hotelinfo-card-menu .order-details .min-time p, .order-card .hotelinfo-card-menu .order-details .min-time p, .order-card .hotelinfo-card-menu .order-details .min-time p, .summary-card .order-card .hotelinfo-card-menu .order-details .min-time p, .order-card .summary-card .hotelinfo-card-menu .order-details .min-time p, .order-card .hotelinfo-card-menu .summary-card .order-details .min-time p, .hotelinfo-card .hotel-details .order-card .order-details .min-time p, .order-card .order-details .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .order-card .order-details .min-time p, .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time p, .order-card .hotel-details .order-details .min-time p, .order-card .order-details .hotel-details .min-time p, .summary-card .hotel-details .order-card .order-details .min-time p, .order-card .order-details .summary-card .hotel-details .min-time p, .hotelinfo-card .order-card .order-details .min-time p, .order-card .hotelinfo-card .order-details .min-time p, .hotelinfo-card-menu .order-card .order-details .min-time p, .order-card .hotelinfo-card-menu .order-details .min-time p, .order-card .order-details .min-time p, .summary-card .order-card .order-details .min-time p, .order-card .summary-card .order-details .min-time p, .hotelinfo-card .hotel-details .summary-card .order-card .order-details .min-time p, .summary-card .order-card .order-details .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .summary-card .order-card .order-details .min-time p, .summary-card .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time p, .summary-card .order-card .hotel-details .order-details .min-time p, .summary-card .order-card .order-details .hotel-details .min-time p, .summary-card .hotel-details .order-card .order-details .min-time p, .summary-card .order-card .order-details .hotel-details .min-time p, .hotelinfo-card .summary-card .order-card .order-details .min-time p, .summary-card .hotelinfo-card .order-card .order-details .min-time p, .summary-card .order-card .hotelinfo-card .order-details .min-time p, .hotelinfo-card-menu .summary-card .order-card .order-details .min-time p, .summary-card .hotelinfo-card-menu .order-card .order-details .min-time p, .summary-card .order-card .hotelinfo-card-menu .order-details .min-time p, .summary-card .order-card .order-details .min-time p, .summary-card .order-card .order-details .min-time p, .order-card .summary-card .order-card .order-details .min-time p, .hotelinfo-card .hotel-details .order-card .summary-card .order-details .min-time p, .order-card .summary-card .order-details .hotelinfo-card .hotel-details .min-time p, .hotelinfo-card-menu .hotel-details .order-card .summary-card .order-details .min-time p, .order-card .summary-card .order-details .hotelinfo-card-menu .hotel-details .min-time p, .order-card .hotel-details .summary-card .order-details .min-time p, .order-card .summary-card .order-details .hotel-details .min-time p, .order-card .summary-card .hotel-details .order-details .min-time p, .order-card .summary-card .order-details .hotel-details .min-time p, .hotelinfo-card .order-card .summary-card .order-details .min-time p, .order-card .hotelinfo-card .summary-card .order-details .min-time p, .order-card .summary-card .hotelinfo-card .order-details .min-time p, .hotelinfo-card-menu .order-card .summary-card .order-details .min-time p, .order-card .hotelinfo-card-menu .summary-card .order-details .min-time p, .order-card .summary-card .hotelinfo-card-menu .order-details .min-time p, .order-card .summary-card .order-details .min-time p, .summary-card .order-card .summary-card .order-details .min-time p, .order-card .summary-card .order-details .min-time p, .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card .hotelinfo-card-menu .hotel-details .delivery-charge p, .order-card .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card .order-card .hotel-details .delivery-charge p, .summary-card .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card .summary-card .hotel-details .delivery-charge p, .hotelinfo-card .order-card .order-details .hotel-details .delivery-charge p, .hotelinfo-card .hotel-details .order-card .order-details .delivery-charge p, .order-card .hotelinfo-card .order-details .hotel-details .delivery-charge p, .order-card .hotelinfo-card .hotel-details .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card .hotel-details .hotelinfo-card-menu .order-card .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .order-details .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card .hotel-details .order-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card .hotel-details .order-card .order-details .delivery-charge p, .summary-card .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card .hotel-details .summary-card .order-card .order-details .delivery-charge p, .order-card .summary-card .order-details .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card .hotel-details .order-card .summary-card .order-details .delivery-charge p, .hotelinfo-card .hotelinfo-card-menu .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .delivery-charge p, .order-card .hotelinfo-card-menu .hotel-details .delivery-charge p, .hotelinfo-card-menu .order-card .hotel-details .delivery-charge p, .summary-card .hotelinfo-card-menu .hotel-details .delivery-charge p, .hotelinfo-card-menu .summary-card .hotel-details .delivery-charge p, .hotelinfo-card .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .hotelinfo-card .order-card .order-details .delivery-charge p, .order-card .hotelinfo-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .order-card .hotelinfo-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .order-details .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .order-card .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .order-details .hotel-details .delivery-charge p, .order-card .hotelinfo-card-menu .hotel-details .order-details .delivery-charge p, .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .order-card .order-details .delivery-charge p, .summary-card .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .summary-card .order-card .order-details .delivery-charge p, .order-card .summary-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .order-card .summary-card .order-details .delivery-charge p, .hotelinfo-card .order-card .hotel-details .delivery-charge p, .order-card .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card-menu .order-card .hotel-details .delivery-charge p, .order-card .hotelinfo-card-menu .hotel-details .delivery-charge p, .order-card .hotel-details .delivery-charge p, .summary-card .order-card .hotel-details .delivery-charge p, .order-card .summary-card .hotel-details .delivery-charge p, .hotelinfo-card .order-card .order-details .hotel-details .delivery-charge p, .hotelinfo-card .order-card .hotel-details .order-details .delivery-charge p, .order-card .hotelinfo-card .order-details .hotel-details .delivery-charge p, .order-card .hotel-details .hotelinfo-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .order-details .hotel-details .delivery-charge p, .hotelinfo-card-menu .order-card .hotel-details .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .order-details .hotel-details .delivery-charge p, .order-card .hotel-details .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .order-details .hotel-details .delivery-charge p, .order-card .hotel-details .order-details .delivery-charge p, .summary-card .order-card .order-details .hotel-details .delivery-charge p, .summary-card .order-card .hotel-details .order-details .delivery-charge p, .order-card .summary-card .order-details .hotel-details .delivery-charge p, .order-card .hotel-details .summary-card .order-details .delivery-charge p, .hotelinfo-card .summary-card .hotel-details .delivery-charge p, .summary-card .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card-menu .summary-card .hotel-details .delivery-charge p, .summary-card .hotelinfo-card-menu .hotel-details .delivery-charge p, .order-card .summary-card .hotel-details .delivery-charge p, .summary-card .order-card .hotel-details .delivery-charge p, .summary-card .hotel-details .delivery-charge p, .hotelinfo-card .order-card .order-details .summary-card .hotel-details .delivery-charge p, .summary-card .hotel-details .hotelinfo-card .order-card .order-details .delivery-charge p, .order-card .hotelinfo-card .order-details .summary-card .hotel-details .delivery-charge p, .summary-card .hotel-details .order-card .hotelinfo-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .order-details .summary-card .hotel-details .delivery-charge p, .summary-card .hotel-details .hotelinfo-card-menu .order-card .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .order-details .summary-card .hotel-details .delivery-charge p, .summary-card .hotel-details .order-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .order-details .summary-card .hotel-details .delivery-charge p, .summary-card .hotel-details .order-card .order-details .delivery-charge p, .summary-card .order-card .order-details .hotel-details .delivery-charge p, .summary-card .hotel-details .order-card .order-details .delivery-charge p, .order-card .summary-card .order-details .hotel-details .delivery-charge p, .order-card .summary-card .hotel-details .order-details .delivery-charge p, .hotelinfo-card .hotel-details .order-card .order-details .delivery-charge p, .hotelinfo-card .order-card .order-details .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .hotelinfo-card .order-card .order-details .delivery-charge p, .hotelinfo-card .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge p, .hotelinfo-card .order-card .hotel-details .order-details .delivery-charge p, .hotelinfo-card .order-card .order-details .hotel-details .delivery-charge p, .summary-card .hotel-details .hotelinfo-card .order-card .order-details .delivery-charge p, .hotelinfo-card .order-card .order-details .summary-card .hotel-details .delivery-charge p, .hotelinfo-card .order-card .order-details .delivery-charge p, .order-card .hotelinfo-card .order-card .order-details .delivery-charge p, .hotelinfo-card-menu .hotelinfo-card .order-card .order-details .delivery-charge p, .hotelinfo-card .hotelinfo-card-menu .order-card .order-details .delivery-charge p, .hotelinfo-card .order-card .hotelinfo-card-menu .order-details .delivery-charge p, .hotelinfo-card .order-card .order-details .delivery-charge p, .summary-card .hotelinfo-card .order-card .order-details .delivery-charge p, .hotelinfo-card .summary-card .order-card .order-details .delivery-charge p, .hotelinfo-card .order-card .summary-card .order-details .delivery-charge p, .order-card .hotelinfo-card .hotel-details .order-details .delivery-charge p, .order-card .hotelinfo-card .order-details .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .order-card .hotelinfo-card .order-details .delivery-charge p, .order-card .hotelinfo-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge p, .order-card .hotel-details .hotelinfo-card .order-details .delivery-charge p, .order-card .hotelinfo-card .order-details .hotel-details .delivery-charge p, .summary-card .hotel-details .order-card .hotelinfo-card .order-details .delivery-charge p, .order-card .hotelinfo-card .order-details .summary-card .hotel-details .delivery-charge p, .hotelinfo-card .order-card .hotelinfo-card .order-details .delivery-charge p, .order-card .hotelinfo-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .hotelinfo-card .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .hotelinfo-card .order-details .delivery-charge p, .order-card .hotelinfo-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .hotelinfo-card .order-details .delivery-charge p, .summary-card .order-card .hotelinfo-card .order-details .delivery-charge p, .order-card .summary-card .hotelinfo-card .order-details .delivery-charge p, .order-card .hotelinfo-card .summary-card .order-details .delivery-charge p, .hotelinfo-card .hotel-details .hotelinfo-card-menu .order-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .order-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .order-details .hotel-details .delivery-charge p, .hotelinfo-card-menu .order-card .hotel-details .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .order-details .hotel-details .delivery-charge p, .summary-card .hotel-details .hotelinfo-card-menu .order-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .order-details .summary-card .hotel-details .delivery-charge p, .hotelinfo-card .hotelinfo-card-menu .order-card .order-details .delivery-charge p, .hotelinfo-card-menu .hotelinfo-card .order-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .hotelinfo-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .order-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .order-details .delivery-charge p, .summary-card .hotelinfo-card-menu .order-card .order-details .delivery-charge p, .hotelinfo-card-menu .summary-card .order-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .summary-card .order-details .delivery-charge p, .hotelinfo-card .hotel-details .order-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .order-details .hotelinfo-card .hotel-details .delivery-charge p, .order-card .hotelinfo-card-menu .hotel-details .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .order-details .hotel-details .delivery-charge p, .order-card .hotel-details .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .order-details .hotel-details .delivery-charge p, .summary-card .hotel-details .order-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .order-details .summary-card .hotel-details .delivery-charge p, .hotelinfo-card .order-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .hotelinfo-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .hotelinfo-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .order-details .delivery-charge p, .summary-card .order-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .summary-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .summary-card .order-details .delivery-charge p, .hotelinfo-card .hotel-details .order-card .order-details .delivery-charge p, .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .order-card .order-details .delivery-charge p, .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge p, .order-card .hotel-details .order-details .delivery-charge p, .order-card .order-details .hotel-details .delivery-charge p, .summary-card .hotel-details .order-card .order-details .delivery-charge p, .order-card .order-details .summary-card .hotel-details .delivery-charge p, .hotelinfo-card .order-card .order-details .delivery-charge p, .order-card .hotelinfo-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .order-details .delivery-charge p, .summary-card .order-card .order-details .delivery-charge p, .order-card .summary-card .order-details .delivery-charge p, .hotelinfo-card .hotel-details .summary-card .order-card .order-details .delivery-charge p, .summary-card .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .summary-card .order-card .order-details .delivery-charge p, .summary-card .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge p, .summary-card .order-card .hotel-details .order-details .delivery-charge p, .summary-card .order-card .order-details .hotel-details .delivery-charge p, .summary-card .hotel-details .order-card .order-details .delivery-charge p, .summary-card .order-card .order-details .hotel-details .delivery-charge p, .hotelinfo-card .summary-card .order-card .order-details .delivery-charge p, .summary-card .hotelinfo-card .order-card .order-details .delivery-charge p, .summary-card .order-card .hotelinfo-card .order-details .delivery-charge p, .hotelinfo-card-menu .summary-card .order-card .order-details .delivery-charge p, .summary-card .hotelinfo-card-menu .order-card .order-details .delivery-charge p, .summary-card .order-card .hotelinfo-card-menu .order-details .delivery-charge p, .summary-card .order-card .order-details .delivery-charge p, .summary-card .order-card .order-details .delivery-charge p, .order-card .summary-card .order-card .order-details .delivery-charge p, .hotelinfo-card .hotel-details .order-card .summary-card .order-details .delivery-charge p, .order-card .summary-card .order-details .hotelinfo-card .hotel-details .delivery-charge p, .hotelinfo-card-menu .hotel-details .order-card .summary-card .order-details .delivery-charge p, .order-card .summary-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge p, .order-card .hotel-details .summary-card .order-details .delivery-charge p, .order-card .summary-card .order-details .hotel-details .delivery-charge p, .order-card .summary-card .hotel-details .order-details .delivery-charge p, .order-card .summary-card .order-details .hotel-details .delivery-charge p, .hotelinfo-card .order-card .summary-card .order-details .delivery-charge p, .order-card .hotelinfo-card .summary-card .order-details .delivery-charge p, .order-card .summary-card .hotelinfo-card .order-details .delivery-charge p, .hotelinfo-card-menu .order-card .summary-card .order-details .delivery-charge p, .order-card .hotelinfo-card-menu .summary-card .order-details .delivery-charge p, .order-card .summary-card .hotelinfo-card-menu .order-details .delivery-charge p, .order-card .summary-card .order-details .delivery-charge p, .summary-card .order-card .summary-card .order-details .delivery-charge p, .order-card .summary-card .order-details .delivery-charge p {
   margin-bottom: 0;
   font-size: .9em;
   color: #777777;
 }
-/* line 555, ../scss/app.scss */
+/* line 554, ../scss/app.scss */
 .hotelinfo-card .hotel-details .min-order span, .hotelinfo-card-menu .hotel-details .min-order span, .order-card .hotel-details .min-order span, .summary-card .hotel-details .min-order span, .hotelinfo-card .order-card .order-details .min-order span, .order-card .hotelinfo-card .order-details .min-order span, .hotelinfo-card-menu .order-card .order-details .min-order span, .order-card .hotelinfo-card-menu .order-details .min-order span, .order-card .order-details .min-order span, .summary-card .order-card .order-details .min-order span, .order-card .summary-card .order-details .min-order span, .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card-menu .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card .hotelinfo-card-menu .hotel-details .min-time span, .order-card .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card .order-card .hotel-details .min-time span, .summary-card .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card .summary-card .hotel-details .min-time span, .hotelinfo-card .order-card .order-details .hotel-details .min-time span, .hotelinfo-card .hotel-details .order-card .order-details .min-time span, .order-card .hotelinfo-card .order-details .hotel-details .min-time span, .order-card .hotelinfo-card .hotel-details .order-details .min-time span, .hotelinfo-card-menu .order-card .order-details .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card .hotel-details .hotelinfo-card-menu .order-card .order-details .min-time span, .order-card .hotelinfo-card-menu .order-details .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card .hotel-details .order-card .hotelinfo-card-menu .order-details .min-time span, .order-card .order-details .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card .hotel-details .order-card .order-details .min-time span, .summary-card .order-card .order-details .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card .hotel-details .summary-card .order-card .order-details .min-time span, .order-card .summary-card .order-details .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card .hotel-details .order-card .summary-card .order-details .min-time span, .hotelinfo-card .hotelinfo-card-menu .hotel-details .min-time span, .hotelinfo-card-menu .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .min-time span, .order-card .hotelinfo-card-menu .hotel-details .min-time span, .hotelinfo-card-menu .order-card .hotel-details .min-time span, .summary-card .hotelinfo-card-menu .hotel-details .min-time span, .hotelinfo-card-menu .summary-card .hotel-details .min-time span, .hotelinfo-card .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .hotelinfo-card .order-card .order-details .min-time span, .order-card .hotelinfo-card .order-details .hotelinfo-card-menu .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .order-card .hotelinfo-card .order-details .min-time span, .hotelinfo-card-menu .order-card .order-details .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .order-card .order-details .min-time span, .order-card .hotelinfo-card-menu .order-details .hotel-details .min-time span, .order-card .hotelinfo-card-menu .hotel-details .order-details .min-time span, .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .order-card .order-details .min-time span, .summary-card .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .summary-card .order-card .order-details .min-time span, .order-card .summary-card .order-details .hotelinfo-card-menu .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .order-card .summary-card .order-details .min-time span, .hotelinfo-card .order-card .hotel-details .min-time span, .order-card .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card-menu .order-card .hotel-details .min-time span, .order-card .hotelinfo-card-menu .hotel-details .min-time span, .order-card .hotel-details .min-time span, .summary-card .order-card .hotel-details .min-time span, .order-card .summary-card .hotel-details .min-time span, .hotelinfo-card .order-card .order-details .hotel-details .min-time span, .hotelinfo-card .order-card .hotel-details .order-details .min-time span, .order-card .hotelinfo-card .order-details .hotel-details .min-time span, .order-card .hotel-details .hotelinfo-card .order-details .min-time span, .hotelinfo-card-menu .order-card .order-details .hotel-details .min-time span, .hotelinfo-card-menu .order-card .hotel-details .order-details .min-time span, .order-card .hotelinfo-card-menu .order-details .hotel-details .min-time span, .order-card .hotel-details .hotelinfo-card-menu .order-details .min-time span, .order-card .order-details .hotel-details .min-time span, .order-card .hotel-details .order-details .min-time span, .summary-card .order-card .order-details .hotel-details .min-time span, .summary-card .order-card .hotel-details .order-details .min-time span, .order-card .summary-card .order-details .hotel-details .min-time span, .order-card .hotel-details .summary-card .order-details .min-time span, .hotelinfo-card .summary-card .hotel-details .min-time span, .summary-card .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card-menu .summary-card .hotel-details .min-time span, .summary-card .hotelinfo-card-menu .hotel-details .min-time span, .order-card .summary-card .hotel-details .min-time span, .summary-card .order-card .hotel-details .min-time span, .summary-card .hotel-details .min-time span, .hotelinfo-card .order-card .order-details .summary-card .hotel-details .min-time span, .summary-card .hotel-details .hotelinfo-card .order-card .order-details .min-time span, .order-card .hotelinfo-card .order-details .summary-card .hotel-details .min-time span, .summary-card .hotel-details .order-card .hotelinfo-card .order-details .min-time span, .hotelinfo-card-menu .order-card .order-details .summary-card .hotel-details .min-time span, .summary-card .hotel-details .hotelinfo-card-menu .order-card .order-details .min-time span, .order-card .hotelinfo-card-menu .order-details .summary-card .hotel-details .min-time span, .summary-card .hotel-details .order-card .hotelinfo-card-menu .order-details .min-time span, .order-card .order-details .summary-card .hotel-details .min-time span, .summary-card .hotel-details .order-card .order-details .min-time span, .summary-card .order-card .order-details .hotel-details .min-time span, .summary-card .hotel-details .order-card .order-details .min-time span, .order-card .summary-card .order-details .hotel-details .min-time span, .order-card .summary-card .hotel-details .order-details .min-time span, .hotelinfo-card .hotel-details .order-card .order-details .min-time span, .hotelinfo-card .order-card .order-details .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .hotelinfo-card .order-card .order-details .min-time span, .hotelinfo-card .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time span, .hotelinfo-card .order-card .hotel-details .order-details .min-time span, .hotelinfo-card .order-card .order-details .hotel-details .min-time span, .summary-card .hotel-details .hotelinfo-card .order-card .order-details .min-time span, .hotelinfo-card .order-card .order-details .summary-card .hotel-details .min-time span, .hotelinfo-card .order-card .order-details .min-time span, .order-card .hotelinfo-card .order-card .order-details .min-time span, .hotelinfo-card-menu .hotelinfo-card .order-card .order-details .min-time span, .hotelinfo-card .hotelinfo-card-menu .order-card .order-details .min-time span, .hotelinfo-card .order-card .hotelinfo-card-menu .order-details .min-time span, .hotelinfo-card .order-card .order-details .min-time span, .summary-card .hotelinfo-card .order-card .order-details .min-time span, .hotelinfo-card .summary-card .order-card .order-details .min-time span, .hotelinfo-card .order-card .summary-card .order-details .min-time span, .order-card .hotelinfo-card .hotel-details .order-details .min-time span, .order-card .hotelinfo-card .order-details .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .order-card .hotelinfo-card .order-details .min-time span, .order-card .hotelinfo-card .order-details .hotelinfo-card-menu .hotel-details .min-time span, .order-card .hotel-details .hotelinfo-card .order-details .min-time span, .order-card .hotelinfo-card .order-details .hotel-details .min-time span, .summary-card .hotel-details .order-card .hotelinfo-card .order-details .min-time span, .order-card .hotelinfo-card .order-details .summary-card .hotel-details .min-time span, .hotelinfo-card .order-card .hotelinfo-card .order-details .min-time span, .order-card .hotelinfo-card .order-details .min-time span, .hotelinfo-card-menu .order-card .hotelinfo-card .order-details .min-time span, .order-card .hotelinfo-card-menu .hotelinfo-card .order-details .min-time span, .order-card .hotelinfo-card .hotelinfo-card-menu .order-details .min-time span, .order-card .hotelinfo-card .order-details .min-time span, .summary-card .order-card .hotelinfo-card .order-details .min-time span, .order-card .summary-card .hotelinfo-card .order-details .min-time span, .order-card .hotelinfo-card .summary-card .order-details .min-time span, .hotelinfo-card .hotel-details .hotelinfo-card-menu .order-card .order-details .min-time span, .hotelinfo-card-menu .order-card .order-details .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .order-card .order-details .min-time span, .hotelinfo-card-menu .order-card .order-details .hotel-details .min-time span, .hotelinfo-card-menu .order-card .hotel-details .order-details .min-time span, .hotelinfo-card-menu .order-card .order-details .hotel-details .min-time span, .summary-card .hotel-details .hotelinfo-card-menu .order-card .order-details .min-time span, .hotelinfo-card-menu .order-card .order-details .summary-card .hotel-details .min-time span, .hotelinfo-card .hotelinfo-card-menu .order-card .order-details .min-time span, .hotelinfo-card-menu .hotelinfo-card .order-card .order-details .min-time span, .hotelinfo-card-menu .order-card .hotelinfo-card .order-details .min-time span, .hotelinfo-card-menu .order-card .order-details .min-time span, .order-card .hotelinfo-card-menu .order-card .order-details .min-time span, .hotelinfo-card-menu .order-card .order-details .min-time span, .summary-card .hotelinfo-card-menu .order-card .order-details .min-time span, .hotelinfo-card-menu .summary-card .order-card .order-details .min-time span, .hotelinfo-card-menu .order-card .summary-card .order-details .min-time span, .hotelinfo-card .hotel-details .order-card .hotelinfo-card-menu .order-details .min-time span, .order-card .hotelinfo-card-menu .order-details .hotelinfo-card .hotel-details .min-time span, .order-card .hotelinfo-card-menu .hotel-details .order-details .min-time span, .order-card .hotelinfo-card-menu .order-details .hotel-details .min-time span, .order-card .hotel-details .hotelinfo-card-menu .order-details .min-time span, .order-card .hotelinfo-card-menu .order-details .hotel-details .min-time span, .summary-card .hotel-details .order-card .hotelinfo-card-menu .order-details .min-time span, .order-card .hotelinfo-card-menu .order-details .summary-card .hotel-details .min-time span, .hotelinfo-card .order-card .hotelinfo-card-menu .order-details .min-time span, .order-card .hotelinfo-card .hotelinfo-card-menu .order-details .min-time span, .order-card .hotelinfo-card-menu .hotelinfo-card .order-details .min-time span, .hotelinfo-card-menu .order-card .hotelinfo-card-menu .order-details .min-time span, .order-card .hotelinfo-card-menu .order-details .min-time span, .order-card .hotelinfo-card-menu .order-details .min-time span, .summary-card .order-card .hotelinfo-card-menu .order-details .min-time span, .order-card .summary-card .hotelinfo-card-menu .order-details .min-time span, .order-card .hotelinfo-card-menu .summary-card .order-details .min-time span, .hotelinfo-card .hotel-details .order-card .order-details .min-time span, .order-card .order-details .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .order-card .order-details .min-time span, .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time span, .order-card .hotel-details .order-details .min-time span, .order-card .order-details .hotel-details .min-time span, .summary-card .hotel-details .order-card .order-details .min-time span, .order-card .order-details .summary-card .hotel-details .min-time span, .hotelinfo-card .order-card .order-details .min-time span, .order-card .hotelinfo-card .order-details .min-time span, .hotelinfo-card-menu .order-card .order-details .min-time span, .order-card .hotelinfo-card-menu .order-details .min-time span, .order-card .order-details .min-time span, .summary-card .order-card .order-details .min-time span, .order-card .summary-card .order-details .min-time span, .hotelinfo-card .hotel-details .summary-card .order-card .order-details .min-time span, .summary-card .order-card .order-details .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .summary-card .order-card .order-details .min-time span, .summary-card .order-card .order-details .hotelinfo-card-menu .hotel-details .min-time span, .summary-card .order-card .hotel-details .order-details .min-time span, .summary-card .order-card .order-details .hotel-details .min-time span, .summary-card .hotel-details .order-card .order-details .min-time span, .summary-card .order-card .order-details .hotel-details .min-time span, .hotelinfo-card .summary-card .order-card .order-details .min-time span, .summary-card .hotelinfo-card .order-card .order-details .min-time span, .summary-card .order-card .hotelinfo-card .order-details .min-time span, .hotelinfo-card-menu .summary-card .order-card .order-details .min-time span, .summary-card .hotelinfo-card-menu .order-card .order-details .min-time span, .summary-card .order-card .hotelinfo-card-menu .order-details .min-time span, .summary-card .order-card .order-details .min-time span, .summary-card .order-card .order-details .min-time span, .order-card .summary-card .order-card .order-details .min-time span, .hotelinfo-card .hotel-details .order-card .summary-card .order-details .min-time span, .order-card .summary-card .order-details .hotelinfo-card .hotel-details .min-time span, .hotelinfo-card-menu .hotel-details .order-card .summary-card .order-details .min-time span, .order-card .summary-card .order-details .hotelinfo-card-menu .hotel-details .min-time span, .order-card .hotel-details .summary-card .order-details .min-time span, .order-card .summary-card .order-details .hotel-details .min-time span, .order-card .summary-card .hotel-details .order-details .min-time span, .order-card .summary-card .order-details .hotel-details .min-time span, .hotelinfo-card .order-card .summary-card .order-details .min-time span, .order-card .hotelinfo-card .summary-card .order-details .min-time span, .order-card .summary-card .hotelinfo-card .order-details .min-time span, .hotelinfo-card-menu .order-card .summary-card .order-details .min-time span, .order-card .hotelinfo-card-menu .summary-card .order-details .min-time span, .order-card .summary-card .hotelinfo-card-menu .order-details .min-time span, .order-card .summary-card .order-details .min-time span, .summary-card .order-card .summary-card .order-details .min-time span, .order-card .summary-card .order-details .min-time span, .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card .hotelinfo-card-menu .hotel-details .delivery-charge span, .order-card .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card .order-card .hotel-details .delivery-charge span, .summary-card .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card .summary-card .hotel-details .delivery-charge span, .hotelinfo-card .order-card .order-details .hotel-details .delivery-charge span, .hotelinfo-card .hotel-details .order-card .order-details .delivery-charge span, .order-card .hotelinfo-card .order-details .hotel-details .delivery-charge span, .order-card .hotelinfo-card .hotel-details .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card .hotel-details .hotelinfo-card-menu .order-card .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .order-details .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card .hotel-details .order-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card .hotel-details .order-card .order-details .delivery-charge span, .summary-card .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card .hotel-details .summary-card .order-card .order-details .delivery-charge span, .order-card .summary-card .order-details .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card .hotel-details .order-card .summary-card .order-details .delivery-charge span, .hotelinfo-card .hotelinfo-card-menu .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .delivery-charge span, .order-card .hotelinfo-card-menu .hotel-details .delivery-charge span, .hotelinfo-card-menu .order-card .hotel-details .delivery-charge span, .summary-card .hotelinfo-card-menu .hotel-details .delivery-charge span, .hotelinfo-card-menu .summary-card .hotel-details .delivery-charge span, .hotelinfo-card .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .hotelinfo-card .order-card .order-details .delivery-charge span, .order-card .hotelinfo-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .order-card .hotelinfo-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .order-details .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .order-card .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .order-details .hotel-details .delivery-charge span, .order-card .hotelinfo-card-menu .hotel-details .order-details .delivery-charge span, .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .order-card .order-details .delivery-charge span, .summary-card .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .summary-card .order-card .order-details .delivery-charge span, .order-card .summary-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .order-card .summary-card .order-details .delivery-charge span, .hotelinfo-card .order-card .hotel-details .delivery-charge span, .order-card .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card-menu .order-card .hotel-details .delivery-charge span, .order-card .hotelinfo-card-menu .hotel-details .delivery-charge span, .order-card .hotel-details .delivery-charge span, .summary-card .order-card .hotel-details .delivery-charge span, .order-card .summary-card .hotel-details .delivery-charge span, .hotelinfo-card .order-card .order-details .hotel-details .delivery-charge span, .hotelinfo-card .order-card .hotel-details .order-details .delivery-charge span, .order-card .hotelinfo-card .order-details .hotel-details .delivery-charge span, .order-card .hotel-details .hotelinfo-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .order-details .hotel-details .delivery-charge span, .hotelinfo-card-menu .order-card .hotel-details .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .order-details .hotel-details .delivery-charge span, .order-card .hotel-details .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .order-details .hotel-details .delivery-charge span, .order-card .hotel-details .order-details .delivery-charge span, .summary-card .order-card .order-details .hotel-details .delivery-charge span, .summary-card .order-card .hotel-details .order-details .delivery-charge span, .order-card .summary-card .order-details .hotel-details .delivery-charge span, .order-card .hotel-details .summary-card .order-details .delivery-charge span, .hotelinfo-card .summary-card .hotel-details .delivery-charge span, .summary-card .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card-menu .summary-card .hotel-details .delivery-charge span, .summary-card .hotelinfo-card-menu .hotel-details .delivery-charge span, .order-card .summary-card .hotel-details .delivery-charge span, .summary-card .order-card .hotel-details .delivery-charge span, .summary-card .hotel-details .delivery-charge span, .hotelinfo-card .order-card .order-details .summary-card .hotel-details .delivery-charge span, .summary-card .hotel-details .hotelinfo-card .order-card .order-details .delivery-charge span, .order-card .hotelinfo-card .order-details .summary-card .hotel-details .delivery-charge span, .summary-card .hotel-details .order-card .hotelinfo-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .order-details .summary-card .hotel-details .delivery-charge span, .summary-card .hotel-details .hotelinfo-card-menu .order-card .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .order-details .summary-card .hotel-details .delivery-charge span, .summary-card .hotel-details .order-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .order-details .summary-card .hotel-details .delivery-charge span, .summary-card .hotel-details .order-card .order-details .delivery-charge span, .summary-card .order-card .order-details .hotel-details .delivery-charge span, .summary-card .hotel-details .order-card .order-details .delivery-charge span, .order-card .summary-card .order-details .hotel-details .delivery-charge span, .order-card .summary-card .hotel-details .order-details .delivery-charge span, .hotelinfo-card .hotel-details .order-card .order-details .delivery-charge span, .hotelinfo-card .order-card .order-details .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .hotelinfo-card .order-card .order-details .delivery-charge span, .hotelinfo-card .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge span, .hotelinfo-card .order-card .hotel-details .order-details .delivery-charge span, .hotelinfo-card .order-card .order-details .hotel-details .delivery-charge span, .summary-card .hotel-details .hotelinfo-card .order-card .order-details .delivery-charge span, .hotelinfo-card .order-card .order-details .summary-card .hotel-details .delivery-charge span, .hotelinfo-card .order-card .order-details .delivery-charge span, .order-card .hotelinfo-card .order-card .order-details .delivery-charge span, .hotelinfo-card-menu .hotelinfo-card .order-card .order-details .delivery-charge span, .hotelinfo-card .hotelinfo-card-menu .order-card .order-details .delivery-charge span, .hotelinfo-card .order-card .hotelinfo-card-menu .order-details .delivery-charge span, .hotelinfo-card .order-card .order-details .delivery-charge span, .summary-card .hotelinfo-card .order-card .order-details .delivery-charge span, .hotelinfo-card .summary-card .order-card .order-details .delivery-charge span, .hotelinfo-card .order-card .summary-card .order-details .delivery-charge span, .order-card .hotelinfo-card .hotel-details .order-details .delivery-charge span, .order-card .hotelinfo-card .order-details .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .order-card .hotelinfo-card .order-details .delivery-charge span, .order-card .hotelinfo-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge span, .order-card .hotel-details .hotelinfo-card .order-details .delivery-charge span, .order-card .hotelinfo-card .order-details .hotel-details .delivery-charge span, .summary-card .hotel-details .order-card .hotelinfo-card .order-details .delivery-charge span, .order-card .hotelinfo-card .order-details .summary-card .hotel-details .delivery-charge span, .hotelinfo-card .order-card .hotelinfo-card .order-details .delivery-charge span, .order-card .hotelinfo-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .hotelinfo-card .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .hotelinfo-card .order-details .delivery-charge span, .order-card .hotelinfo-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .hotelinfo-card .order-details .delivery-charge span, .summary-card .order-card .hotelinfo-card .order-details .delivery-charge span, .order-card .summary-card .hotelinfo-card .order-details .delivery-charge span, .order-card .hotelinfo-card .summary-card .order-details .delivery-charge span, .hotelinfo-card .hotel-details .hotelinfo-card-menu .order-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .order-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .order-details .hotel-details .delivery-charge span, .hotelinfo-card-menu .order-card .hotel-details .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .order-details .hotel-details .delivery-charge span, .summary-card .hotel-details .hotelinfo-card-menu .order-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .order-details .summary-card .hotel-details .delivery-charge span, .hotelinfo-card .hotelinfo-card-menu .order-card .order-details .delivery-charge span, .hotelinfo-card-menu .hotelinfo-card .order-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .hotelinfo-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .order-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .order-details .delivery-charge span, .summary-card .hotelinfo-card-menu .order-card .order-details .delivery-charge span, .hotelinfo-card-menu .summary-card .order-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .summary-card .order-details .delivery-charge span, .hotelinfo-card .hotel-details .order-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .order-details .hotelinfo-card .hotel-details .delivery-charge span, .order-card .hotelinfo-card-menu .hotel-details .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .order-details .hotel-details .delivery-charge span, .order-card .hotel-details .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .order-details .hotel-details .delivery-charge span, .summary-card .hotel-details .order-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .order-details .summary-card .hotel-details .delivery-charge span, .hotelinfo-card .order-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .hotelinfo-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .hotelinfo-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .order-details .delivery-charge span, .summary-card .order-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .summary-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .summary-card .order-details .delivery-charge span, .hotelinfo-card .hotel-details .order-card .order-details .delivery-charge span, .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .order-card .order-details .delivery-charge span, .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge span, .order-card .hotel-details .order-details .delivery-charge span, .order-card .order-details .hotel-details .delivery-charge span, .summary-card .hotel-details .order-card .order-details .delivery-charge span, .order-card .order-details .summary-card .hotel-details .delivery-charge span, .hotelinfo-card .order-card .order-details .delivery-charge span, .order-card .hotelinfo-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .order-details .delivery-charge span, .summary-card .order-card .order-details .delivery-charge span, .order-card .summary-card .order-details .delivery-charge span, .hotelinfo-card .hotel-details .summary-card .order-card .order-details .delivery-charge span, .summary-card .order-card .order-details .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .summary-card .order-card .order-details .delivery-charge span, .summary-card .order-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge span, .summary-card .order-card .hotel-details .order-details .delivery-charge span, .summary-card .order-card .order-details .hotel-details .delivery-charge span, .summary-card .hotel-details .order-card .order-details .delivery-charge span, .summary-card .order-card .order-details .hotel-details .delivery-charge span, .hotelinfo-card .summary-card .order-card .order-details .delivery-charge span, .summary-card .hotelinfo-card .order-card .order-details .delivery-charge span, .summary-card .order-card .hotelinfo-card .order-details .delivery-charge span, .hotelinfo-card-menu .summary-card .order-card .order-details .delivery-charge span, .summary-card .hotelinfo-card-menu .order-card .order-details .delivery-charge span, .summary-card .order-card .hotelinfo-card-menu .order-details .delivery-charge span, .summary-card .order-card .order-details .delivery-charge span, .summary-card .order-card .order-details .delivery-charge span, .order-card .summary-card .order-card .order-details .delivery-charge span, .hotelinfo-card .hotel-details .order-card .summary-card .order-details .delivery-charge span, .order-card .summary-card .order-details .hotelinfo-card .hotel-details .delivery-charge span, .hotelinfo-card-menu .hotel-details .order-card .summary-card .order-details .delivery-charge span, .order-card .summary-card .order-details .hotelinfo-card-menu .hotel-details .delivery-charge span, .order-card .hotel-details .summary-card .order-details .delivery-charge span, .order-card .summary-card .order-details .hotel-details .delivery-charge span, .order-card .summary-card .hotel-details .order-details .delivery-charge span, .order-card .summary-card .order-details .hotel-details .delivery-charge span, .hotelinfo-card .order-card .summary-card .order-details .delivery-charge span, .order-card .hotelinfo-card .summary-card .order-details .delivery-charge span, .order-card .summary-card .hotelinfo-card .order-details .delivery-charge span, .hotelinfo-card-menu .order-card .summary-card .order-details .delivery-charge span, .order-card .hotelinfo-card-menu .summary-card .order-details .delivery-charge span, .order-card .summary-card .hotelinfo-card-menu .order-details .delivery-charge span, .order-card .summary-card .order-details .delivery-charge span, .summary-card .order-card .summary-card .order-details .delivery-charge span, .order-card .summary-card .order-details .delivery-charge span {
   font-weight: bold;
 }
-/* line 560, ../scss/app.scss */
+/* line 559, ../scss/app.scss */
 .hotelinfo-card .hotel-details .min-time, .hotelinfo-card-menu .hotel-details .min-time, .order-card .hotel-details .min-time, .summary-card .hotel-details .min-time, .hotelinfo-card .order-card .order-details .min-time, .order-card .hotelinfo-card .order-details .min-time, .hotelinfo-card-menu .order-card .order-details .min-time, .order-card .hotelinfo-card-menu .order-details .min-time, .order-card .order-details .min-time, .summary-card .order-card .order-details .min-time, .order-card .summary-card .order-details .min-time {
   text-align: center;
 }
-/* line 565, ../scss/app.scss */
+/* line 564, ../scss/app.scss */
 .hotelinfo-card .hotel-details .delivery-charge, .hotelinfo-card-menu .hotel-details .delivery-charge, .order-card .hotel-details .delivery-charge, .summary-card .hotel-details .delivery-charge, .hotelinfo-card .order-card .order-details .delivery-charge, .order-card .hotelinfo-card .order-details .delivery-charge, .hotelinfo-card-menu .order-card .order-details .delivery-charge, .order-card .hotelinfo-card-menu .order-details .delivery-charge, .order-card .order-details .delivery-charge, .summary-card .order-card .order-details .delivery-charge, .order-card .summary-card .order-details .delivery-charge {
   text-align: right;
 }
-/* line 573, ../scss/app.scss */
+/* line 572, ../scss/app.scss */
 .hotelinfo-card .hotel-payment p, .hotelinfo-card-menu .hotel-payment p, .order-card .hotel-payment p, .summary-card .hotel-payment p {
   margin-bottom: 5px;
 }
 
-/* line 577, ../scss/app.scss */
+/* line 576, ../scss/app.scss */
 .more-hotels {
   position: relative;
   float: left;
@@ -8438,14 +8438,14 @@ header .header-right span {
   margin-top: 5px;
 }
 
-/* line 584, ../scss/app.scss */
+/* line 583, ../scss/app.scss */
 .hotelinfo-card-menu {
   margin-bottom: 0;
   margin-top: 15px;
   color: #777777;
 }
 
-/* line 591, ../scss/app.scss */
+/* line 590, ../scss/app.scss */
 .menu-wrapper {
   position: relative;
   float: left;
@@ -8456,7 +8456,7 @@ header .header-right span {
   background-color: #fff;
 }
 
-/* line 596, ../scss/app.scss */
+/* line 595, ../scss/app.scss */
 .food-group {
   margin-left: -15px;
   margin-right: -15px;
@@ -8470,7 +8470,7 @@ header .header-right span {
 .food-group:after {
   clear: both;
 }
-/* line 599, ../scss/app.scss */
+/* line 598, ../scss/app.scss */
 .food-group h5 {
   padding: 10px 15px;
   text-transform: uppercase;
@@ -8479,19 +8479,19 @@ header .header-right span {
   color: #333333;
   font-weight: bold;
 }
-/* line 609, ../scss/app.scss */
+/* line 608, ../scss/app.scss */
 .food-group ul {
   padding: 0;
   margin: 0;
 }
-/* line 613, ../scss/app.scss */
+/* line 612, ../scss/app.scss */
 .food-group ul li {
   list-style: none;
   padding: 15px 15px;
   border-bottom: 1px solid #ddd;
   position: relative;
 }
-/* line 618, ../scss/app.scss */
+/* line 617, ../scss/app.scss */
 .food-group ul li span.veg-icon, .food-group ul li span.n-veg-icon {
   width: 10%;
   color: #5cb85c;
@@ -8499,28 +8499,45 @@ header .header-right span {
   top: 17px;
   left: 15px;
 }
-/* line 627, ../scss/app.scss */
+/* line 626, ../scss/app.scss */
 .food-group ul li span.n-veg-icon {
   color: red;
 }
-/* line 632, ../scss/app.scss */
+/* line 631, ../scss/app.scss */
 .food-group ul li span.qty {
   width: 10%;
 }
-/* line 635, ../scss/app.scss */
+/* line 634, ../scss/app.scss */
 .food-group ul li span.dish-name {
   display: inline-block;
   width: 60%;
   margin-left: 23px;
 }
-/* line 642, ../scss/app.scss */
+/* line 641, ../scss/app.scss */
 .food-group ul li span.dish-price {
   display: block;
   position: absolute;
   right: 40px;
   top: 15px;
 }
-/* line 652, ../scss/app.scss */
+/* line 651, ../scss/app.scss */
+.food-group ul li span.dish-price:before {
+  content: "\e00d";
+  font-family: "yc" !important;
+  font-size: 14px;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 5px;
+  left: -14px;
+}
+/* line 669, ../scss/app.scss */
 .food-group ul li span.dish-desc {
   padding-top: 10px;
   display: block;
@@ -8528,7 +8545,7 @@ header .header-right span {
   padding-right: 50px;
   color: #777777;
 }
-/* line 660, ../scss/app.scss */
+/* line 677, ../scss/app.scss */
 .food-group ul li span.add-icon {
   float: right;
   padding-right: 5px;
@@ -8536,29 +8553,46 @@ header .header-right span {
   margin-top: -9px;
   color: #f39c12;
 }
-/* line 667, ../scss/app.scss */
+/* line 684, ../scss/app.scss */
 .food-group ul li span.dish-price-modal, .food-group ul li span.close-icon {
   float: right;
   padding-right: 5px;
 }
-/* line 671, ../scss/app.scss */
+/* line 688, ../scss/app.scss */
+.food-group ul li span.dish-price-modal:before, .food-group ul li span.close-icon:before {
+  content: "\e00d";
+  font-family: "yc" !important;
+  font-size: 14px;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 5px;
+  left: -14px;
+}
+/* line 705, ../scss/app.scss */
 .food-group ul li span.close-icon {
   font-size: 20px;
   margin-right: -8px;
   color: red;
 }
-/* line 678, ../scss/app.scss */
+/* line 712, ../scss/app.scss */
 .food-group ul div.additem {
   position: relative;
   min-height: 40px;
 }
-/* line 682, ../scss/app.scss */
+/* line 716, ../scss/app.scss */
 .food-group ul div.additem div.quantity {
   float: right;
   margin: 0;
   font-size: 22px;
 }
-/* line 686, ../scss/app.scss */
+/* line 720, ../scss/app.scss */
 .food-group ul div.additem div.quantity :after {
   content: ".";
   display: block;
@@ -8566,7 +8600,7 @@ header .header-right span {
   clear: both;
   visibility: hidden;
 }
-/* line 693, ../scss/app.scss */
+/* line 727, ../scss/app.scss */
 .food-group ul div.additem div.quantity span, .food-group ul div.additem div.quantity input {
   display: block;
   float: left;
@@ -8579,47 +8613,47 @@ header .header-right span {
   line-height: 1;
   font-weight: normal;
 }
-/* line 705, ../scss/app.scss */
+/* line 739, ../scss/app.scss */
 .food-group ul div.additem div.quantity span {
   font-family: arial;
   font-size: 20px;
 }
-/* line 709, ../scss/app.scss */
+/* line 743, ../scss/app.scss */
 .food-group ul div.additem div.quantity input {
   font-size: 16px;
 }
-/* line 715, ../scss/app.scss */
+/* line 749, ../scss/app.scss */
 .food-group ul li.heading {
   background-color: #eeeeee;
   border-bottom: 1px solid #bbbbbb;
   padding: 10px 15px;
   font-size: .9em;
 }
-/* line 720, ../scss/app.scss */
+/* line 754, ../scss/app.scss */
 .food-group ul li.heading p {
   text-align: center;
   margin: 0;
 }
-/* line 724, ../scss/app.scss */
+/* line 758, ../scss/app.scss */
 .food-group ul li.heading span.dish-price {
   top: 10px;
 }
-/* line 729, ../scss/app.scss */
+/* line 763, ../scss/app.scss */
 .food-group ul li.order-total {
   padding: 4px 15px;
   margin-left: 40%;
   border: none;
 }
-/* line 737, ../scss/app.scss */
+/* line 771, ../scss/app.scss */
 .food-group ul li:last-child {
   border-bottom: none;
 }
-/* line 740, ../scss/app.scss */
+/* line 774, ../scss/app.scss */
 .food-group ul li:first-child {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 747, ../scss/app.scss */
+/* line 781, ../scss/app.scss */
 .order-wrapper {
   position: relative;
   float: left;
@@ -8633,26 +8667,26 @@ header .header-right span {
   margin-bottom: 0;
 }
 
-/* line 759, ../scss/app.scss */
+/* line 793, ../scss/app.scss */
 .order-card .menu-wrapper {
   margin-bottom: 15px;
 }
 
-/* line 764, ../scss/app.scss */
+/* line 798, ../scss/app.scss */
 ul.ordered-item li {
   padding: 10px 0;
 }
-/* line 766, ../scss/app.scss */
+/* line 800, ../scss/app.scss */
 ul.ordered-item li span.dish-price {
   right: 10px;
 }
 
-/* line 770, ../scss/app.scss */
+/* line 804, ../scss/app.scss */
 ul.ordered-item li.order-total {
   margin-left: 20%;
 }
 
-/* line 773, ../scss/app.scss */
+/* line 807, ../scss/app.scss */
 .order-btn-wrapper {
   position: relative;
   float: left;
@@ -8661,12 +8695,12 @@ ul.ordered-item li.order-total {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 775, ../scss/app.scss */
+/* line 809, ../scss/app.scss */
 .order-btn-wrapper button {
   width: 49%;
 }
 
-/* line 781, ../scss/app.scss */
+/* line 815, ../scss/app.scss */
 .summary-wrapper {
   position: relative;
   float: left;
@@ -8675,27 +8709,27 @@ ul.ordered-item li.order-total {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 783, ../scss/app.scss */
+/* line 817, ../scss/app.scss */
 .summary-wrapper p {
   font-size: .7em;
 }
-/* line 786, ../scss/app.scss */
+/* line 820, ../scss/app.scss */
 .summary-wrapper .btn, .summary-wrapper .btn-fullwidth-small, .summary-wrapper .btn-fullwidth-mid, .summary-wrapper .btn-fullwidth, .summary-wrapper .btn-fixed-bottom {
   margin-top: 15px;
 }
 
-/* line 791, ../scss/app.scss */
+/* line 825, ../scss/app.scss */
 .summary-card {
   padding: 0;
 }
-/* line 795, ../scss/app.scss */
+/* line 829, ../scss/app.scss */
 .summary-card p {
   padding: 0 10px;
   text-align: center;
   font-weight: bold;
 }
 
-/* line 803, ../scss/app.scss */
+/* line 837, ../scss/app.scss */
 .circle {
   border: 1px solid #919191;
   color: #919191;
@@ -8708,19 +8742,19 @@ ul.ordered-item li.order-total {
   text-align: center;
 }
 
-/* line 816, ../scss/app.scss */
+/* line 850, ../scss/app.scss */
 span.order-text {
   display: inline-block;
   width: 60%;
   padding-left: 10px;
 }
 
-/* line 823, ../scss/app.scss */
+/* line 857, ../scss/app.scss */
 li.grand-total span {
   font-weight: bold;
 }
 
-/* line 831, ../scss/app.scss */
+/* line 865, ../scss/app.scss */
 .login-wrapper {
   position: relative;
   float: left;
@@ -8731,12 +8765,12 @@ li.grand-total span {
   padding-top: 15px;
 }
 
-/* line 837, ../scss/app.scss */
+/* line 871, ../scss/app.scss */
 .login-btn-wrapper button {
   width: 49%;
 }
 
-/* line 843, ../scss/app.scss */
+/* line 877, ../scss/app.scss */
 .payment-wrapper {
   position: relative;
   float: left;
@@ -8745,7 +8779,7 @@ li.grand-total span {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 846, ../scss/app.scss */
+/* line 880, ../scss/app.scss */
 .payment-wrapper h5 {
   text-align: center;
   text-transform: uppercase;
@@ -8761,7 +8795,7 @@ li.grand-total span {
   font-style: normal;
 }
 
-/* line 872, ../scss/app.scss */
+/* line 906, ../scss/app.scss */
 [data-icon]:before {
   font-family: "yc" !important;
   content: attr(data-icon);
@@ -8775,126 +8809,112 @@ li.grand-total span {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 886, ../scss/app.scss */
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family: "yc" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* line 898, ../scss/app.scss */
+/* line 924, ../scss/app.scss */
 .icon-veg-nonveg:before {
   content: "\e000";
 }
 
-/* line 901, ../scss/app.scss */
+/* line 927, ../scss/app.scss */
 .icon-alert:before {
   content: "\e001";
 }
 
-/* line 904, ../scss/app.scss */
+/* line 930, ../scss/app.scss */
 .icon-ham:before {
   content: "\e003";
 }
 
-/* line 907, ../scss/app.scss */
+/* line 933, ../scss/app.scss */
 .icon-cart:before {
   content: "\e004";
 }
 
-/* line 910, ../scss/app.scss */
+/* line 936, ../scss/app.scss */
 .icon-right:before {
   content: "\e007";
 }
 
-/* line 913, ../scss/app.scss */
+/* line 939, ../scss/app.scss */
 .icon-twitter:before {
   content: "\e009";
 }
 
-/* line 916, ../scss/app.scss */
+/* line 942, ../scss/app.scss */
 .icon-minus:before {
   content: "\e00a";
 }
 
-/* line 919, ../scss/app.scss */
+/* line 945, ../scss/app.scss */
 .icon-plus:before {
   content: "\e00b";
 }
 
-/* line 922, ../scss/app.scss */
+/* line 948, ../scss/app.scss */
 .icon-angle-left:before {
   content: "\e002";
 }
 
-/* line 925, ../scss/app.scss */
+/* line 951, ../scss/app.scss */
 .icon-angle-right:before {
   content: "\e00c";
 }
 
-/* line 928, ../scss/app.scss */
+/* line 954, ../scss/app.scss */
 .icon-rupee:before {
   content: "\e00d";
 }
 
-/* line 931, ../scss/app.scss */
+/* line 957, ../scss/app.scss */
 .icon-left-open-big:before {
   content: "\e00e";
 }
 
-/* line 934, ../scss/app.scss */
+/* line 960, ../scss/app.scss */
 .icon-left-open:before {
   content: "\e00f";
 }
 
-/* line 937, ../scss/app.scss */
+/* line 963, ../scss/app.scss */
 .icon-right-open-big:before {
   content: "\e010";
 }
 
-/* line 940, ../scss/app.scss */
+/* line 966, ../scss/app.scss */
 .icon-right-open:before {
   content: "\e011";
 }
 
-/* line 943, ../scss/app.scss */
+/* line 969, ../scss/app.scss */
 .icon-facebook-alt:before {
   content: "\e012";
 }
 
-/* line 946, ../scss/app.scss */
+/* line 972, ../scss/app.scss */
 .icon-align-justify:before {
   content: "\e008";
 }
 
-/* line 949, ../scss/app.scss */
+/* line 975, ../scss/app.scss */
 .icon-cancel:before {
   content: "\e013";
 }
 
-/* line 952, ../scss/app.scss */
+/* line 978, ../scss/app.scss */
 .icon-call-phone-square:before {
   content: "\e014";
 }
 
-/* line 955, ../scss/app.scss */
+/* line 981, ../scss/app.scss */
 .icon-whatsapp:before {
   content: "\e015";
 }
 
-/* line 958, ../scss/app.scss */
+/* line 984, ../scss/app.scss */
 .icon-arrow-right:before {
   content: "\e005";
 }
 
-/* line 961, ../scss/app.scss */
+/* line 987, ../scss/app.scss */
 .icon-train:before {
   content: "\e006";
 }

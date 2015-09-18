@@ -1,6 +1,5 @@
 @import "compass";
 @import "bootstrap";
-//@import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 //@import "modals";
 
@@ -647,8 +646,26 @@ width: 1%;
 				top: 15px;
 //				display: inline-block;
 //				width: 20%;
-//				text-align: right;
+				
 			}
+			span.dish-price:before {
+                content: "\e00d"; 
+                font-family: "yc" !important;
+                font-size: 14px;
+  				font-style: normal !important;
+  				font-weight: normal !important;
+  				font-variant: normal !important;
+  				text-transform: none !important;
+  				speak: none;
+  				line-height: 1;
+  				-webkit-font-smoothing: antialiased;
+  				-moz-osx-font-smoothing: grayscale;
+                 position: absolute;
+
+                top: 5px;
+                 left:-14px;
+                 
+				}
 			span.dish-desc{
 				padding-top: 10px;
 				display: block;
@@ -667,6 +684,23 @@ width: 1%;
 			span.dish-price-modal{
 				float:right;
 				padding-right: 5px;
+			}
+			span.dish-price-modal:before{
+				content: "\e00d"; 
+                font-family: "yc" !important;
+                font-size: 14px;
+  				font-style: normal !important;
+  				font-weight: normal !important;
+  				font-variant: normal !important;
+  				text-transform: none !important;
+  				speak: none;
+  				line-height: 1;
+  				-webkit-font-smoothing: antialiased;
+  				-moz-osx-font-smoothing: grayscale;
+                 position: absolute;
+
+                top: 5px;
+                 left:-14px;
 			}
 			span.close-icon{
 				@extend .dish-price-modal;
@@ -884,15 +918,7 @@ li.grand-total{
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "yc" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
 }
 
 .icon-veg-nonveg:before {
