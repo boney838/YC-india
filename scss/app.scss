@@ -1,0 +1,964 @@
+@import "compass";
+@import "bootstrap";
+//@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+//@import "modals";
+
+
+
+
+
+
+
+
+//-----------custom-mixins-------------
+//--------------------------------------
+@mixin custom-label($color) {
+     background-color: #fff;
+     border:2px solid $color;
+     color: $color;
+     padding: .25em .6em .3em;
+
+  &[href] {
+    &:hover,
+    &:focus {
+      background-color: darken($color, 10%);
+    }
+  }
+}
+.label-yc{
+	@include custom-label($brand-success)
+}
+.label-breakfast{
+	@include custom-label($brand-info)
+}
+.label-lunch{
+	@include custom-label($brand-success)
+}
+.label-dinner{
+	@include custom-label($brand-warning)
+}
+.label-yc-gray{
+	@include custom-label($gray-light);
+	border-width:1px;
+}
+
+
+
+
+
+
+
+
+
+
+//-------------------------------------
+// Common Components
+//-------------------------------------
+.page-wrapper{
+	@extend .container-fluid;
+    min-height: 100%;
+//  position: relative;
+}
+.content-wrapper{
+	@include make-row;
+}
+.default-panel{
+	@include make-xs-column(12);
+}
+.gray-panel{
+	@include make-xs-column(12);
+	padding:10px inherit;
+	background-color: $gray-lighter;
+	border-bottom:1px solid darken($gray-lighter,20%);
+}
+.white-panel{
+	@extend .gray-panel;
+	background-color: #fff;
+
+
+}
+
+//----buttons--------
+.btn-fullwidth-small{
+	    @extend .btn;
+		@extend .btn-block;
+		@extend .btn-primary;
+}
+.btn-fullwidth-mid {
+		@extend .btn-fullwidth-small;
+		@include button-size($padding-base-vertical, $padding-base-horizontal,$font-size-base,$line-height-small,$border-radius-small);
+	}
+.btn-fullwidth {
+		@extend .btn-fullwidth-small;
+		@include button-size($padding-large-vertical, $padding-large-horizontal,$font-size-large,$line-height-large,$border-radius-small);
+	}
+.btn-fixed-bottom {
+	@extend .btn-fullwidth;
+	margin:10px 0;
+}
+.btn-line-primary{
+	@include button-variant($btn-primary-bg, #fff, $btn-primary-bg);
+}
+
+.btn-fb{
+	@include button-variant(#fff,#3b5998,#3b5998);
+}
+.btn-google{
+	@include button-variant(#fff,#dd4b39,#dd4b39);
+}
+//---header---------
+header{
+	@include make-row;
+	background-color:$brand-secondary;
+	height: 48px;
+	padding: 12px 15px;
+	position: relative;
+
+	
+	a{
+		text-align: left;
+		text-decoration: none;
+//	    margin-top: 12px;
+	    font-size: 100%;
+	    float: left;
+	    position: absolute;
+	    left: 0;
+	    top: 12px;
+	    color: #fff;
+	    margin: 0 10px;
+//	    margin-top: 3px!important;
+
+    	span{
+		    position: relative;
+		    top: 2px;
+		    margin-right: 0;
+    	}
+	
+		&:hover,&:active,&:visited {
+		text-decoration: none;
+		}
+	}
+  .header-center{
+  	display: block;
+    font-size: $font-size-base;
+    margin: 0 30%;
+    min-height: 34px;
+    outline: 0 none!important;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: normal;
+    color: #fff;
+//    text-transform: uppercase;
+    font-weight: bold;
+}
+  .header-right{
+  	float: right;
+    position: absolute !important;
+    text-align: right;
+    right: 5px;
+    left: auto;
+    top:8px;
+    span{
+    	margin-right: 0;
+    	font-size: 150%;
+    }
+  }
+}
+
+.bg-color{
+	background-color: #fff;
+}
+//-----tab (pills)------------------------
+.nav-justified.custom-not-stacked>li {
+display: table-cell;
+width: 1%;
+}
+//.nav-justified.custom-not-stacked>.active>a, 
+//.nav-justified.custom-not-stacked>.active>a:focus, 
+//.nav-justified.custom-not-stacked>.active>a:hover {
+//border-bottom-color: #fff;
+//}
+//.nav-justified.custom-not-stacked>li>a {
+//border-bottom: 1px solid #ddd;
+//border-radius: 4px 4px 0 0;
+//margin-bottom: 0;
+//}
+.nav-pills-two {
+  > li {
+    float: left;
+    min-width: 50%;
+    // Links rendered as pills
+    > a {
+      color:$brand-success;
+      border-radius: 0;
+      border:1px solid $brand-success;
+      margin-left: -1px;
+    }
+    + li {
+      margin-left: 0px;
+
+    }
+	&:first-child{
+    	>a{
+    		border-radius: 4px 0 0 4px;
+    		margin: 0;
+    	}
+    }
+    &:last-child{
+    	>a{
+    		border-radius: 0 4px 4px 0;
+    	}
+    }
+    // Active state
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: $nav-pills-active-link-hover-color;
+        background-color: $brand-success;
+      }
+    }
+  }
+}
+.nav-pills-three{
+	@extend .nav-pills-two;
+	>li{
+		min-width: 32%;
+	}
+}
+//**** Homepage ****
+//-------------------------------------------------------------
+#homepage-bg{
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(1, 0, 0, 0.45), 
+      rgba(1, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(../assets/images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+.homepage-wrapper{
+	@include make-row;
+	
+
+    margin-top: 60%;
+//  position: absolute;
+//  top:40px;
+//  left:0;
+//  width:100%;
+//  height: 100%;
+    
+
+    .homepage-center{
+    @include make-xs-column(12);
+	@extend .text-center;
+	color: #fff;
+	 h3{
+	 	font-weight: bold;
+	 	margin-top: 0;
+	 	margin-bottom: 30px;
+
+	 }
+	 h4{
+	 	font-weight: bold;
+	 }
+	}
+
+}
+
+//******* SEARCH **********
+//-----------------------------------------------------------
+
+.search-tab{
+		@include make-xs-column(12);
+		margin: 15px 0;
+
+	}
+
+.search-wrapper{
+	padding-top: 1em;
+//	@include make-xs-column(12);
+
+	.journey-form{
+		@include make-xs-column(12);
+		margin: 15px 0;
+		span{
+		 		font-size: .75em;
+		 		font-color:$gray-light;
+		 		text-transform: uppercase;
+
+		 	};
+
+		.auto-suggest{
+			background:#fff;
+			border:1px solid darken($body-bg,15%);
+			padding:5px;
+			margin-bottom: 15px;
+			border-radius: 2px;
+
+			h3{
+				display: block;
+//				padding-bottom: 5px;
+				margin:0 ;
+
+			}
+			p{
+				display: block;
+				margin:0;
+				font-size: .8em;
+			}
+		}
+		.journey-train{
+		 	@include make-xs-column(6);
+		 	padding-left: 0;
+		 	padding-right: 5px;
+
+		}
+		.journey-date{
+			@include make-xs-column(6);
+			padding-right: 0;
+			padding-left: 5px;
+
+		}
+		.journey-from{
+			@extend .journey-train;
+		}
+		.journey-to{
+			@extend .journey-date;
+		}
+
+	}
+	.pnr-form{
+		@include make-xs-column(12);
+		margin-top: 30%;
+		p{
+			text-align: center;
+		}
+		input{
+			width: 100%;
+
+			
+		}
+	}
+
+}
+.find-food-btn-wrapper{
+	@include make-xs-column(12);
+	//margin-top: 15%;
+}
+
+
+//****** SEARCH RESULTS **********************
+//-------------------------------------------------------------
+
+.train-info{
+	@include make-xs-column(12);
+//	@extend .text-center;
+	background-color: $gray-lighter;
+	border-bottom:1px solid darken($gray-lighter,20%);
+	padding-top:10px;
+	padding-bottom: 10px;
+	p{
+		margin:0;
+		font-weight: bold;
+		
+			}
+	p:nth-child(2){
+		font-size: .8em;
+		margin-bottom: 10px;
+		border-bottom:1px solid darken($gray-lighter,10%);
+		padding-bottom: 10px;
+	}		
+			
+	ul{ 
+		padding:0;
+		li{
+			list-style: none;
+			display: block;
+			width: 40%;
+			float: left;
+			
+			span.dept-stn,span.arr-stn{
+				display: block;
+
+			}
+			span.dept-time,span.dept-date,span.arr-time,span.arr-date,{
+				display: inline;
+				font-size: .8em;
+			}
+			
+		}
+		li:nth-child(2){
+			text-align: center;
+			width: 20%;
+			padding-top:15px;
+			span{
+				
+			}
+		}
+				
+	}
+}
+
+.station-wrapper{
+	@include make-xs-column(12);
+	background-color:#fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+
+}
+.station{
+	width:90%;
+	display: inline-block;
+
+
+
+	.stn-name{
+		width:60%;
+		display: inline-block;
+		float:left;
+		h5{
+			margin: 0;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		
+	}
+	.stn-arrival{
+		max-width:30%;
+		display: inline-block;
+		text-align: center;
+		span{display:block;
+			&:first-child{
+			font-weight: bold;
+			}
+		}
+	}
+	.stn-day{
+		width:10%;
+		display: inline-block;
+		float:right;
+		text-align: right;
+		
+	}
+}
+.stn-arrow{
+	float:right;
+	position: relative;
+	min-height: 1px;
+	span{
+		color:darken($gray-lighter,20%);
+		position: absolute;
+		top:20px;
+		right:-10px;
+
+	}
+}
+
+.station-header{
+	@include make-xs-column(12);
+	border-bottom:1px solid darken($gray-lighter,20%);
+	.station{
+		padding:8px 0;
+//		text-transform: uppercase;
+//		color:$brand-primary;
+			.stn-name,.stn-arrival,.stn-day{
+				font-size:  1em ;
+				font-weight: normal;
+		}
+	}
+
+}
+
+//******* HotelList **********
+//-----------------------------------------------------------
+.hotel-wrapper{
+	@include make-xs-column(12);
+	h5 {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin:15px 0;
+		}
+}		
+.hotelinfo-card{
+	@include make-xs-column(12);
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	padding: 8px;
+	margin-bottom: 15px;
+	background-color: #fff;
+
+	> button{
+		margin-top: 20px;
+	}
+	.card-header{
+		@include make-row;
+		margin-bottom: 5px;
+		.hotel-name{
+			@include make-xs-column(12);
+			padding-top:3px;
+			h4{
+				margin: 0;
+				text-align: left;
+				text-transform: uppercase;
+				font-weight: bold;
+				display: inline;
+				max-width: 90%;
+				overflow:hidden;
+				padding-right:7px;
+
+			}
+			
+			span.veg{
+				color:$brand-success;
+				margin-top:5px;
+			}
+			span.n-veg{
+				color:red;
+				margin-top:5px;
+			}
+			
+
+		}
+	}	
+			
+		
+
+		
+	.hotel-details{
+		@include make-xs-column(12);
+		margin:0 0 7px 0;
+		.min-order{
+			width:32%;
+			display: inline-block;
+
+			p{
+				margin-bottom:0;
+				font-size:.9em;
+				color:$gray-light;
+			}
+			span{
+				font-weight: bold;
+
+			}
+		}
+		.min-time{
+			@extend .min-order;
+			text-align: center;
+			
+		}
+		.delivery-charge{
+			@extend .min-order;
+			text-align: right;
+			
+		}
+	}
+	.hotel-payment{
+//		margin-bottom: 10px;
+		p{margin-bottom:5px;}
+	}
+}	
+
+.more-hotels{
+	@include make-xs-column(12);
+	margin-top:5px;
+}
+
+//------------- MENU -----------
+//-------------------------------------------------------
+.hotelinfo-card-menu{
+	@extend .hotelinfo-card;
+	margin-bottom: 0;
+	margin-top: 15px;
+	color:$gray-light;
+		}
+
+.menu-wrapper{
+	@include make-xs-column(12);
+//	margin-bottom: 10px;
+	background-color: #fff;
+}
+.food-group{
+	@include make-row;
+
+	h5{
+		padding:10px 15px;
+		text-transform: uppercase;
+		margin: 0;
+		background-color: lighten($gray-base, 78.7%);
+		color:$gray-dark;
+		font-weight: bold;
+//		border:1px solid darken($gray-lighter,20%);
+		
+	}
+	ul{
+//		@include make-xs-column(12);
+		padding:0;
+		margin:0;
+		li{
+			list-style: none;
+			padding:15px 15px;
+			border-bottom: 1px solid #ddd;
+			position: relative;
+			span.veg-icon{
+//				display:inline-block;
+				width: 10%;
+				color: $brand-success;
+				position: absolute;
+				top:17px;
+				left:15px;
+
+						}
+			span.n-veg-icon{
+//				display:inline-block;
+				@extend .veg-icon;
+				color:red;
+						}
+			span.qty{
+				width: 10%;
+			}			
+			span.dish-name{
+				display: inline-block;
+				width:60%;
+				margin-left: 23px;
+
+			}
+
+			span.dish-price{
+				display: block;
+//				width:30%;
+				position:absolute;
+				right: 40px;
+				top: 15px;
+//				display: inline-block;
+//				width: 20%;
+//				text-align: right;
+			}
+			span.dish-desc{
+				padding-top: 10px;
+				display: block;
+				font-size: .9em;
+				padding-right: 50px;
+				color:$gray-light;
+
+			}	
+			span.add-icon{
+				float:right;
+				padding-right: 5px;
+				font-size: $font-size-h3;
+				margin-top:-9px;
+				color: $brand-primary;
+			}
+			span.dish-price-modal{
+				float:right;
+				padding-right: 5px;
+			}
+			span.close-icon{
+				@extend .dish-price-modal;
+				font-size: $font-size-h4;
+				margin-right: -8px;
+				color:red;
+			}
+		}
+		div.additem{
+			position: relative;
+			min-height: 40px;
+//			padding: 0 15px;
+			div.quantity{
+				float:right;
+				margin: 0;
+				font-size:22px;
+				:after{
+					content: ".";
+				    display: block;
+				    height: 0;
+				    clear: both;
+				    visibility: hidden;
+				}
+				span,input{
+					display: block;
+                    float: left;
+                    width: 40px;
+                    height: 40px;
+                    text-align: center;
+                    margin-left: 5px;
+                    padding: 10px 0;
+                    -webkit-border-radius: 3px;
+                    line-height: 1;
+                    font-weight: normal;
+				}
+				span{
+					font-family: arial;
+					font-size: $font-size-large
+				}
+				input{
+					font-size:$font-size-base;
+		//			border: 1px solid $gray-lighter;
+				}
+			}				
+		}
+		li.heading{
+			background-color: $gray-lighter;
+			border-bottom:1px solid darken($gray-lighter,20%);
+			padding:10px 15px;
+			font-size: .9em;
+			p{
+				text-align: center;
+				margin:0;
+			}
+			span.dish-price{
+				top:10px;
+
+			}			
+		}
+		li.order-total{
+			padding:4px 15px;
+			margin-left: 40%;
+			border: none;
+			span.text{
+
+			}
+		}
+		li:last-child{
+		    border-bottom:none;    	
+		}
+		li:first-child{
+			border-bottom: 1px solid #ddd;
+		}	
+	}
+}
+//------------- Food cart -------------------------------
+//-------------------------------------------------------
+.order-wrapper{
+	@include make-xs-column(12);
+	padding-left:-8px;
+	padding-right:-8px;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+.order-card{
+	@extend .hotelinfo-card;
+	.order-details{
+		@extend .hotel-details;
+	}
+	.menu-wrapper{
+		margin-bottom:15px;
+	}
+}
+
+ul.ordered-item li{
+	padding:10px 0;
+		span.dish-price{
+		right: 10px;
+		}
+	}
+ul.ordered-item li.order-total{
+	margin-left:20%;
+	}	
+.order-btn-wrapper{
+	@include make-xs-column(12);
+	button{
+		width: 49%;
+	}
+}
+//----------------------------- order summary --------------------------------------
+//-------------------------------------------------------------------------------
+.summary-wrapper{
+	@include make-xs-column(12);
+	p{
+		font-size: .7em;
+	}
+	.btn{
+		margin-top: 15px;
+	}
+}
+
+.summary-card{
+	@extend .hotelinfo-card;
+	padding: 0;
+
+	p{
+		padding: 0 10px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+}
+
+.circle {
+	border:1px solid lighten($gray-light,10%);
+	color:lighten($gray-light,10%);
+	margin: 5px auto;
+
+	border-radius: 50%;
+	width: 35px;
+	height: 35px; 
+	font-size:$font-size-base;
+	line-height: 35px;
+    text-align:center;
+    
+}
+span.order-text{
+				display: inline-block;
+				width:60%;
+				padding-left:10px;
+				
+			}
+li.grand-total{
+	span{
+		font-weight: bold;
+	}
+}
+
+
+//----------------------------- Login Page --------------------------------------
+//-------------------------------------------------------------------------------
+.login-wrapper{
+	@include make-xs-column(12);
+	padding-top: 15px;
+//	background-color: #fff;
+}
+.login-btn-wrapper{
+	button{
+		width:49%;
+	}
+}
+//----------------------------- Payment --------------------------------------
+//-------------------------------------------------------------------------------
+.payment-wrapper{
+	@include make-xs-column(12);
+
+	h5 {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin:15px 0;
+		}
+}
+
+
+
+//----------------------------- icon fonts -YC custom from fontatstic.me---------
+//-------------------------------------------------------------------------------
+@charset "UTF-8";
+
+@font-face {
+  font-family: "yc";
+  src:url("../assets/fonts/yc/fonts/yc.eot");
+  src:url("../assets/fonts/yc/fonts/yc.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/yc/fonts/yc.woff") format("woff"),
+    url("../assets/fonts/yc/fonts/yc.ttf") format("truetype"),
+    url("../assets/fonts/yc/fonts/yc.svg#yc") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "yc" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "yc" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-veg-nonveg:before {
+  content: "\e000";
+}
+.icon-alert:before {
+  content: "\e001";
+}
+.icon-ham:before {
+  content: "\e003";
+}
+.icon-cart:before {
+  content: "\e004";
+}
+.icon-right:before {
+  content: "\e007";
+}
+.icon-twitter:before {
+  content: "\e009";
+}
+.icon-minus:before {
+  content: "\e00a";
+}
+.icon-plus:before {
+  content: "\e00b";
+}
+.icon-angle-left:before {
+  content: "\e002";
+}
+.icon-angle-right:before {
+  content: "\e00c";
+}
+.icon-rupee:before {
+  content: "\e00d";
+}
+.icon-left-open-big:before {
+  content: "\e00e";
+}
+.icon-left-open:before {
+  content: "\e00f";
+}
+.icon-right-open-big:before {
+  content: "\e010";
+}
+.icon-right-open:before {
+  content: "\e011";
+}
+.icon-facebook-alt:before {
+  content: "\e012";
+}
+.icon-align-justify:before {
+  content: "\e008";
+}
+.icon-cancel:before {
+  content: "\e013";
+}
+.icon-call-phone-square:before {
+  content: "\e014";
+}
+.icon-whatsapp:before {
+  content: "\e015";
+}
+.icon-arrow-right:before {
+  content: "\e005";
+}
+.icon-train:before {
+  content: "\e006";
+}
+
