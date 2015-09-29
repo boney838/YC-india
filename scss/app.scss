@@ -250,9 +250,7 @@ width: 1%;
 
 .homepage-wrapper{
 	@include make-row;
-	
-
-    margin-top: 60%;
+    background: url(../assets/images/logo.png) center 15%/100px 147px no-repeat;
 //  position: absolute;
 //  top:40px;
 //  left:0;
@@ -263,6 +261,7 @@ width: 1%;
     .homepage-center{
     @include make-xs-column(12);
 	@extend .text-center;
+	margin-top: 60%;
 	color: #fff;
 	 h3{
 	 	font-weight: bold;
@@ -702,6 +701,7 @@ width: 1%;
                 top: 5px;
                  left:-14px;
 			}
+			
 			span.close-icon{
 				@extend .dish-price-modal;
 				font-size: $font-size-h4;
